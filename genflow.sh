@@ -232,4 +232,4 @@ cut -d " " -f 2 $TMPDIR/callflow_node.$$ > $TMPDIR/callflow_shortnode.$$
 
 # ** (process:1484): WARNING **: Preference "column.format" has been converted to "gui.column.format"
 # get rtp for pcap2wav script
-tshark -r ./capture.pcap -Y "rtp" -t a -o 'gui.column.format: "No.", "%m", "Time", %t, "Protocol", "%p", "srcport", %S, "dstport", %D, "Info", "%i"' | uniq -f 11 > $TMPDIR/callflow_rtp.$$
+tshark -r ./capture.pcap -Y "rtp" -t a -o 'gui.column.format: "No.", "%m", "Time", %t, "Source", "%s", "Destination", "%d", "Protocol", "%p", "srcport", %S, "dstport", %D, "Info", "%i"' | uniq -f 11 > $TMPDIR/callflow_rtp.$$
