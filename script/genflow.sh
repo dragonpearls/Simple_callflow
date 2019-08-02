@@ -156,7 +156,7 @@ join -t "|" --nocheck-order $TMPDIR/${PRGNAME}-tshark-1.$$ $TMPDIR/${PRGNAME}-ts
       printf "%s|", $A[i]
     }
     printf "%s\n", $A[L]
-  }' $TMPDIR/${PRGNAME}-tshark-3.$$ > $TMPDIR/callflow.short.$$
+  }' $TMPDIR/${PRGNAME}-tshark-3.$$ > $TMPDIR/callflow_short.$$
 
 rm $TMPDIR/${PRGNAME}-tshark-[123].$$
 
