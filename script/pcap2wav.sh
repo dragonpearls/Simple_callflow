@@ -1,9 +1,9 @@
 #!/bin/bash - 
 #===============================================================================
 #
-#          FILE: ext.sh
+#          FILE: pcap2wav.sh
 # 
-#         USAGE: ./ext.sh 
+#         USAGE: ./pcap2wav.sh capture
 # 
 #   DESCRIPTION: 
 # 
@@ -11,9 +11,9 @@
 #  REQUIREMENTS: ---
 #          BUGS: ---
 #         NOTES: ---
-#        AUTHOR: YOUR NAME (), 
+#        AUTHOR: 
 #  ORGANIZATION: 
-#       CREATED: 2019年07月12日 16:43
+#       CREATED: 20190712 16:43
 #      REVISION:  ---
 #===============================================================================
 
@@ -58,14 +58,19 @@ EOF
 exit
 fi
 
+if [[ ! -z "$2" ]]
+then
+    CAPFILE=$2
+fi
+
 if [[ $1 == "-z" ]]
 then
     CLEAN=true
-    CAPFILE="capture.pcap"
+    [[ -z "$CAPFILE" ]] && CAPFILE="capture.pcap"
     TARGETFILE="result"
 else
     CLEAN=false
-    CAPFILE="capture.pcap"
+    [[ -z "$CAPFILE" ]] && CAPFILE="capture.pcap"
     TARGETFILE="result"
 fi
 
@@ -125,27 +130,27 @@ payload_type=`tshark -n -r $CAPFILE -T fields -e rtp.p_type | grep -P '\d+' | he
 case $payload_type in
     0) codec='PCMU'
         for item in `seq 1 $num_streams`; do
-            convert[$item]="$SOX -t ul -r 8000 -c 1 ${TARGETFILE}_$item.$codec ${TARGETFILE}_$item.wav"
+            convert[$item]="$SOX -t ul -r 8000 -c 1 ${TARGETFILE}_$item.$codec ${TARGETFILE}_${ssrc[$item]}_$item.wav"
         done
         ;;
     3) codec='GSM'
         for item in `seq 1 $num_streams`; do
-            convert[$item]="$SOX -t gsm -r 8000 -c 1 ${TARGETFILE}_$item.$codec ${TARGETFILE}_$item.wav"
+            convert[$item]="$SOX -t gsm -r 8000 -c 1 ${TARGETFILE}_$item.$codec ${TARGETFILE}_${ssrc[$item]}_$item.wav"
         done
         ;;
     8) codec='PCMA'
         for item in `seq 1 $num_streams`; do
-            convert[$item]="$SOX -t al -r 8000 -c 1 ${TARGETFILE}_$item.$codec ${TARGETFILE}_$item.wav"
+            convert[$item]="$SOX -t al -r 8000 -c 1 ${TARGETFILE}_$item.$codec ${TARGETFILE}_${ssrc[$item]}_$item.wav"
         done
         ;;
     9) codec='G722'
         for item in `seq 1 $num_streams`; do
-            convert[$item]="$FSENCODE ${TARGETFILE}_$item.$codec ${TARGETFILE}_$item.wav"
+            convert[$item]="$FSENCODE ${TARGETFILE}_$item.$codec ${TARGETFILE}_${ssrc[$item]}_$item.wav"
         done
         ;;
     18) codec='G729'
         for item in `seq 1 $num_streams`; do
-            convert[$item]="$FSENCODE -l mod_com_g729 ${TARGETFILE}_$item.$codec ${TARGETFILE}_$item.wav"
+            convert[$item]="$FSENCODE -l mod_com_g729 ${TARGETFILE}_$item.$codec ${TARGETFILE}_${ssrc[$item]}_$item.wav"
         done
         ;;
 esac
@@ -157,7 +162,7 @@ fi
 
 echo "Target files to create:"
 for item in `seq 1 $num_streams`; do
-    echo "${TARGETFILE}_$item.$codec and ${TARGETFILE}_$item.wav"
+    echo "${TARGETFILE}_$item.$codec and ${TARGETFILE}_${ssrc[$item]}$item.wav"
 done
 
 echo
@@ -180,17 +185,17 @@ if [[ $num_streams == "2" ]]
 then
     echo "Combining 2 streams into a single wav file for convenience"
     # Find shorter recording, calc time diff in samples
-    samples1=`soxi -s ${TARGETFILE}_1.wav`
-    samples2=`soxi -s ${TARGETFILE}_2.wav`
+    samples1=`soxi -s ${TARGETFILE}_${ssrc[$item]}_1.wav`
+    samples2=`soxi -s ${TARGETFILE}_${ssrc[$item]}_2.wav`
 
     if [[ $samples1 -gt $samples2 ]]
     then
-        longer="${TARGETFILE}_1.wav"
-        shorter="${TARGETFILE}_2.wav"
+        longer="${TARGETFILE}_${ssrc[$item]}_1.wav"
+        shorter="${TARGETFILE}_${ssrc[$item]}_2.wav"
         delay=`expr $samples1 - $samples2`
     else
-        longer="${TARGETFILE}_2.wav"
-        shorter="${TARGETFILE}_1.wav"
+        longer="${TARGETFILE}_${ssrc[$item]}_2.wav"
+        shorter="${TARGETFILE}_${ssrc[$item]}_1.wav"
         delay=`expr $samples2 - $samples1`
     fi
 
@@ -210,12 +215,14 @@ then
     #echo "Clean option"
     ZIPFILE=${TARGETFILE}.tgz
 
-    mkdir audio
+    if [ ! -d './audio/' ];then
+        mkdir audio
+    fi
 
     rm -fr $ZIPFILE
     /bin/tar czf $ZIPFILE ${TARGETFILE}*wav > /dev/null 2>& 1
     for item in `seq 1 $num_streams`; do
-        mv  ${TARGETFILE}_$item.* audio
+        mv  ${TARGETFILE}_*_$item.* audio
     done
     rm -fr $TARGETFILE.tmp
 else
