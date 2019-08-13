@@ -1,0 +1,2561 @@
+Frame 96: 548 bytes on wire (4384 bits), 548 bytes captured (4384 bits) on interface 0
+    Interface id: 0 (enp2s0)
+        Interface name: enp2s0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 13, 2019 11:18:30.387479078 CST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1565666310.387479078 seconds
+    [Time delta from previous captured frame: 0.009557033 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 0.849608217 seconds]
+    Frame Number: 96
+    Frame Length: 548 bytes (4384 bits)
+    Capture Length: 548 bytes (4384 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:sip]
+Ethernet II, Src: Grandstr_f4:bf:65 (00:0b:82:f4:bf:65), Dst: Grandstr_56:67:87 (00:0b:82:56:67:87)
+    Destination: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        Address: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Grandstr_f4:bf:65 (00:0b:82:f4:bf:65)
+        Address: Grandstr_f4:bf:65 (00:0b:82:f4:bf:65)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.92.24, Dst: 192.168.92.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x68 (DSCP: AF31, ECN: Not-ECT)
+        0110 10.. = Differentiated Services Codepoint: Assured Forwarding 31 (26)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 534
+    Identification: 0x67f3 (26611)
+    Flags: 0x0000
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0xd64a [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.92.24
+    Destination: 192.168.92.200
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+    Source Port: 5060
+    Destination Port: 5060
+    Length: 514
+    Checksum: 0xacd2 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 16]
+Session Initiation Protocol (OPTIONS)
+    Request-Line: OPTIONS sip:192.168.92.200 SIP/2.0
+        Method: OPTIONS
+        Request-URI: sip:192.168.92.200
+            Request-URI Host Part: 192.168.92.200
+        [Resent Packet: False]
+    Message Header
+        Via: SIP/2.0/UDP 192.168.92.24:5060;branch=z9hG4bK489870947;rport
+            Transport: UDP
+            Sent-by Address: 192.168.92.24
+            Sent-by port: 5060
+            Branch: z9hG4bK489870947
+            RPort: rport
+        From: <sip:6518@192.168.92.200>;tag=176491732
+            SIP from address: sip:6518@192.168.92.200
+                SIP from address User Part: 6518
+                SIP from address Host Part: 192.168.92.200
+            SIP from tag: 176491732
+        To: <sip:192.168.92.200>
+            SIP to address: sip:192.168.92.200
+                SIP to address Host Part: 192.168.92.200
+        Call-ID: 1472734814-5060-2237@BJC.BGI.JC.CE
+        CSeq: 22360 OPTIONS
+            Sequence Number: 22360
+            Method: OPTIONS
+        Contact: <sip:6518@192.168.92.24:5060>
+            Contact URI: sip:6518@192.168.92.24:5060
+                Contact URI User Part: 6518
+                Contact URI Host Part: 192.168.92.24
+                Contact URI Host Port: 5060
+        X-Grandstream-PBX: true
+            [Expert Info (Note/Undecoded): Unrecognised SIP header (x-grandstream-pbx)]
+                [Unrecognised SIP header (x-grandstream-pbx)]
+                [Severity level: Note]
+                [Group: Undecoded]
+        Max-Forwards: 70
+        User-Agent: Grandstream GRP2612P 1.0.1.3
+        Supported: replaces, path
+        Allow: INVITE, ACK, OPTIONS, CANCEL, BYE, SUBSCRIBE, NOTIFY, INFO, REFER, UPDATE, MESSAGE
+        Content-Length: 0
+
+Frame 113: 840 bytes on wire (6720 bits), 840 bytes captured (6720 bits) on interface 0
+    Interface id: 0 (enp2s0)
+        Interface name: enp2s0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 13, 2019 11:18:30.402166593 CST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1565666310.402166593 seconds
+    [Time delta from previous captured frame: 0.004007393 seconds]
+    [Time delta from previous displayed frame: 0.014687515 seconds]
+    [Time since reference or first frame: 0.864295732 seconds]
+    Frame Number: 113
+    Frame Length: 840 bytes (6720 bits)
+    Capture Length: 840 bytes (6720 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:sip]
+Ethernet II, Src: Grandstr_56:67:87 (00:0b:82:56:67:87), Dst: Grandstr_f4:bf:65 (00:0b:82:f4:bf:65)
+    Destination: Grandstr_f4:bf:65 (00:0b:82:f4:bf:65)
+        Address: Grandstr_f4:bf:65 (00:0b:82:f4:bf:65)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        Address: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.92.200, Dst: 192.168.92.24
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 826
+    Identification: 0x0000 (0)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0xfd81 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.92.200
+    Destination: 192.168.92.24
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+    Source Port: 5060
+    Destination Port: 5060
+    Length: 806
+    Checksum: 0x8312 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 16]
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+        Status-Code: 200
+        [Resent Packet: False]
+        [Request Frame: 96]
+        [Response Time (ms): 14]
+    Message Header
+        Via: SIP/2.0/UDP 192.168.92.24:5060;rport=5060;received=192.168.92.24;branch=z9hG4bK489870947
+            Transport: UDP
+            Sent-by Address: 192.168.92.24
+            Sent-by port: 5060
+            RPort: 5060
+            Received: 192.168.92.24
+            Branch: z9hG4bK489870947
+        Call-ID: 1472734814-5060-2237@BJC.BGI.JC.CE
+        From: <sip:6518@192.168.92.200>;tag=176491732
+            SIP from address: sip:6518@192.168.92.200
+                SIP from address User Part: 6518
+                SIP from address Host Part: 192.168.92.200
+            SIP from tag: 176491732
+        To: <sip:192.168.92.200>;tag=z9hG4bK489870947
+            SIP to address: sip:192.168.92.200
+                SIP to address Host Part: 192.168.92.200
+            SIP to tag: z9hG4bK489870947
+        CSeq: 22360 OPTIONS
+            Sequence Number: 22360
+            Method: OPTIONS
+         [truncated]Accept: application/sdp, application/xpidf+xml, application/cpim-pidf+xml, application/conference-info+xml, application/dialog-info+xml, application/pidf+xml, application/simple-message-summary, application/call-completion, me
+        Allow: OPTIONS, INFO, SUBSCRIBE, NOTIFY, PUBLISH, INVITE, ACK, BYE, CANCEL, UPDATE, PRACK, REFER, MESSAGE, REGISTER
+        Supported: 100rel, norefersub, replaces
+        Accept-Encoding: text/plain
+        Accept-Language: en
+        Server: Grandstream UCM6116V1.5A 1.0.18.12
+        Content-Length:  0
+
+Frame 206: 1267 bytes on wire (10136 bits), 1267 bytes captured (10136 bits) on interface 0
+    Interface id: 0 (enp2s0)
+        Interface name: enp2s0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 13, 2019 11:18:30.681316737 CST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1565666310.681316737 seconds
+    [Time delta from previous captured frame: 0.001248171 seconds]
+    [Time delta from previous displayed frame: 0.279150144 seconds]
+    [Time since reference or first frame: 1.143445876 seconds]
+    Frame Number: 206
+    Frame Length: 1267 bytes (10136 bits)
+    Capture Length: 1267 bytes (10136 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:sip:sdp]
+Ethernet II, Src: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e), Dst: Grandstr_56:67:87 (00:0b:82:56:67:87)
+    Destination: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        Address: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+        Address: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.92.52, Dst: 192.168.92.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x68 (DSCP: AF31, ECN: Not-ECT)
+        0110 10.. = Differentiated Services Codepoint: Assured Forwarding 31 (26)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 1253
+    Identification: 0x4ec7 (20167)
+    Flags: 0x0000
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0xec8b [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.92.52
+    Destination: 192.168.92.200
+User Datagram Protocol, Src Port: 48441, Dst Port: 5060
+    Source Port: 48441
+    Destination Port: 5060
+    Length: 1233
+    Checksum: 0x3ca3 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 17]
+Session Initiation Protocol (INVITE)
+    Request-Line: INVITE sip:8888@192.168.92.200 SIP/2.0
+        Method: INVITE
+        Request-URI: sip:8888@192.168.92.200
+            Request-URI User Part: 8888
+            Request-URI Host Part: 192.168.92.200
+        [Resent Packet: False]
+    Message Header
+        Via: SIP/2.0/UDP 192.168.92.52:48441;branch=z9hG4bK458159697;rport
+            Transport: UDP
+            Sent-by Address: 192.168.92.52
+            Sent-by port: 48441
+            Branch: z9hG4bK458159697
+            RPort: rport
+        From: <sip:6104@192.168.92.200>;tag=2026881436
+            SIP from address: sip:6104@192.168.92.200
+                SIP from address User Part: 6104
+                SIP from address Host Part: 192.168.92.200
+            SIP from tag: 2026881436
+        To: <sip:8888@192.168.92.200>
+            SIP to address: sip:8888@192.168.92.200
+                SIP to address User Part: 8888
+                SIP to address Host Part: 192.168.92.200
+        Call-ID: 224115816-48441-246@BJC.BGI.JC.FC
+        CSeq: 2450 INVITE
+            Sequence Number: 2450
+            Method: INVITE
+        Contact: <sip:6104@192.168.92.52:48441>
+            Contact URI: sip:6104@192.168.92.52:48441
+                Contact URI User Part: 6104
+                Contact URI Host Part: 192.168.92.52
+                Contact URI Host Port: 48441
+        X-Grandstream-PBX: true
+            [Expert Info (Note/Undecoded): Unrecognised SIP header (x-grandstream-pbx)]
+                [Unrecognised SIP header (x-grandstream-pbx)]
+                [Severity level: Note]
+                [Group: Undecoded]
+        Max-Forwards: 70
+        User-Agent: Grandstream GRP2614 1.0.1.3
+        Privacy: none
+        P-Preferred-Identity: <sip:6104@192.168.92.200>
+            SIP PPI Address: sip:6104@192.168.92.200
+                SIP PPI User Part: 6104
+                SIP PPI Host Part: 192.168.92.200
+        P-Access-Network-Info: IEEE-EUI-48;eui-48-addr=9C-37-F4-84-05-53
+            access-type: IEEE-EUI-48
+            eui-48-addr=9C-37-F4-84-05-53
+        P-Emergency-Info: IEEE-EUI-48;eui-48-addr=00-0B-82-F9-AE-8E
+            [Expert Info (Note/Undecoded): Unrecognised SIP header (p-emergency-info)]
+                [Unrecognised SIP header (p-emergency-info)]
+                [Severity level: Note]
+                [Group: Undecoded]
+        Supported: replaces, path
+        Allow: INVITE, ACK, OPTIONS, CANCEL, BYE, SUBSCRIBE, NOTIFY, INFO, REFER, UPDATE, MESSAGE
+        Content-Type: application/sdp
+        Accept: application/sdp, application/dtmf-relay
+        Content-Length:   436
+    Message Body
+        Session Description Protocol
+            Session Description Protocol Version (v): 0
+            Owner/Creator, Session Id (o): 6104 8000 8000 IN IP4 192.168.92.52
+                Owner Username: 6104
+                Session ID: 8000
+                Session Version: 8000
+                Owner Network Type: IN
+                Owner Address Type: IP4
+                Owner Address: 192.168.92.52
+            Session Name (s): SIP Call
+            Connection Information (c): IN IP4 192.168.92.52
+                Connection Network Type: IN
+                Connection Address Type: IP4
+                Connection Address: 192.168.92.52
+            Time Description, active time (t): 0 0
+                Session Start Time: 0
+                Session Stop Time: 0
+            Media Description, name and address (m): audio 47524 RTP/AVP 0 8 4 18 9 97 2 123 101
+                Media Type: audio
+                Media Port: 47524
+                Media Protocol: RTP/AVP
+                Media Format: ITU-T G.711 PCMU
+                Media Format: ITU-T G.711 PCMA
+                Media Format: ITU-T G.723
+                Media Format: ITU-T G.729
+                Media Format: ITU-T G.722
+                Media Format: DynamicRTP-Type-97
+                Media Format: ITU-T G.721
+                Media Format: DynamicRTP-Type-123
+                Media Format: DynamicRTP-Type-101
+            Media Attribute (a): sendrecv
+            Media Attribute (a): rtpmap:0 PCMU/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 0
+                MIME Type: PCMU
+                Sample Rate: 8000
+            Media Attribute (a): ptime:20
+                Media Attribute Fieldname: ptime
+                Media Attribute Value: 20
+            Media Attribute (a): rtpmap:8 PCMA/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 8
+                MIME Type: PCMA
+                Sample Rate: 8000
+            Media Attribute (a): rtpmap:4 G723/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 4
+                MIME Type: G723
+                Sample Rate: 8000
+            Media Attribute (a): rtpmap:18 G729/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 18
+                MIME Type: G729
+                Sample Rate: 8000
+            Media Attribute (a): fmtp:18 annexb=no
+                Media Attribute Fieldname: fmtp
+                Media Format: 18 [G729]
+                Media format specific parameters: annexb=no
+            Media Attribute (a): rtpmap:9 G722/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 9
+                MIME Type: G722
+                Sample Rate: 8000
+            Media Attribute (a): rtpmap:97 iLBC/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 97
+                MIME Type: iLBC
+                Sample Rate: 8000
+            Media Attribute (a): fmtp:97 mode=30
+                Media Attribute Fieldname: fmtp
+                Media Format: 97 [iLBC]
+                Media format specific parameters: mode=30
+            Media Attribute (a): rtpmap:2 G726-32/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 2
+                MIME Type: G726-32
+                Sample Rate: 8000
+            Media Attribute (a): rtpmap:123 opus/48000/2
+                Media Attribute Fieldname: rtpmap
+                Media Format: 123
+                MIME Type: opus
+                Sample Rate: 48000
+            Media Attribute (a): rtpmap:101 telephone-event/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 101
+                MIME Type: telephone-event
+                Sample Rate: 8000
+            Media Attribute (a): fmtp:101 0-15
+                Media Attribute Fieldname: fmtp
+                Media Format: 101 [telephone-event]
+                Media format specific parameters: 0-15
+
+Frame 223: 543 bytes on wire (4344 bits), 543 bytes captured (4344 bits) on interface 0
+    Interface id: 0 (enp2s0)
+        Interface name: enp2s0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 13, 2019 11:18:30.698662010 CST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1565666310.698662010 seconds
+    [Time delta from previous captured frame: 0.008351289 seconds]
+    [Time delta from previous displayed frame: 0.017345273 seconds]
+    [Time since reference or first frame: 1.160791149 seconds]
+    Frame Number: 223
+    Frame Length: 543 bytes (4344 bits)
+    Capture Length: 543 bytes (4344 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:sip]
+Ethernet II, Src: Grandstr_56:67:87 (00:0b:82:56:67:87), Dst: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+    Destination: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+        Address: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        Address: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.92.200, Dst: 192.168.92.52
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 529
+    Identification: 0x0000 (0)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0xfe8e [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.92.200
+    Destination: 192.168.92.52
+User Datagram Protocol, Src Port: 5060, Dst Port: 48441
+    Source Port: 5060
+    Destination Port: 48441
+    Length: 509
+    Checksum: 0x9a96 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 17]
+Session Initiation Protocol (401)
+    Status-Line: SIP/2.0 401 Unauthorized
+        Status-Code: 401
+        [Resent Packet: False]
+        [Request Frame: 206]
+        [Response Time (ms): 17]
+    Message Header
+        Via: SIP/2.0/UDP 192.168.92.52:48441;rport=48441;received=192.168.92.52;branch=z9hG4bK458159697
+            Transport: UDP
+            Sent-by Address: 192.168.92.52
+            Sent-by port: 48441
+            RPort: 48441
+            Received: 192.168.92.52
+            Branch: z9hG4bK458159697
+        Call-ID: 224115816-48441-246@BJC.BGI.JC.FC
+        From: <sip:6104@192.168.92.200>;tag=2026881436
+            SIP from address: sip:6104@192.168.92.200
+                SIP from address User Part: 6104
+                SIP from address Host Part: 192.168.92.200
+            SIP from tag: 2026881436
+        To: <sip:8888@192.168.92.200>;tag=z9hG4bK458159697
+            SIP to address: sip:8888@192.168.92.200
+                SIP to address User Part: 8888
+                SIP to address Host Part: 192.168.92.200
+            SIP to tag: z9hG4bK458159697
+        CSeq: 2450 INVITE
+            Sequence Number: 2450
+            Method: INVITE
+        WWW-Authenticate: Digest realm="grandstream",nonce="1565666256/da963203bc014e09ec6095a54296a05e",opaque="369d6afc3dbbd583",algorithm=md5,qop="auth"
+            Authentication Scheme: Digest
+            Realm: "grandstream"
+            Nonce Value: "1565666256/da963203bc014e09ec6095a54296a05e"
+            Opaque Value: "369d6afc3dbbd583"
+            Algorithm: md5
+            QOP: "auth"
+        Server: Grandstream UCM6116V1.5A 1.0.18.12
+        Content-Length:  0
+
+Frame 248: 328 bytes on wire (2624 bits), 328 bytes captured (2624 bits) on interface 0
+    Interface id: 0 (enp2s0)
+        Interface name: enp2s0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 13, 2019 11:18:30.884541221 CST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1565666310.884541221 seconds
+    [Time delta from previous captured frame: 0.000053521 seconds]
+    [Time delta from previous displayed frame: 0.185879211 seconds]
+    [Time since reference or first frame: 1.346670360 seconds]
+    Frame Number: 248
+    Frame Length: 328 bytes (2624 bits)
+    Capture Length: 328 bytes (2624 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:sip]
+Ethernet II, Src: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e), Dst: Grandstr_56:67:87 (00:0b:82:56:67:87)
+    Destination: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        Address: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+        Address: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.92.52, Dst: 192.168.92.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x68 (DSCP: AF31, ECN: Not-ECT)
+        0110 10.. = Differentiated Services Codepoint: Assured Forwarding 31 (26)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 314
+    Identification: 0x4edb (20187)
+    Flags: 0x0000
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0xf022 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.92.52
+    Destination: 192.168.92.200
+User Datagram Protocol, Src Port: 48441, Dst Port: 5060
+    Source Port: 48441
+    Destination Port: 5060
+    Length: 294
+    Checksum: 0x2aa9 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 17]
+Session Initiation Protocol (ACK)
+    Request-Line: ACK sip:8888@192.168.92.200 SIP/2.0
+        Method: ACK
+        Request-URI: sip:8888@192.168.92.200
+            Request-URI User Part: 8888
+            Request-URI Host Part: 192.168.92.200
+        [Resent Packet: False]
+        [Request Frame: 206]
+        [Response Time (ms): 203]
+    Message Header
+        Via: SIP/2.0/UDP 192.168.92.52:48441;branch=z9hG4bK458159697;rport
+            Transport: UDP
+            Sent-by Address: 192.168.92.52
+            Sent-by port: 48441
+            Branch: z9hG4bK458159697
+            RPort: rport
+        From: <sip:6104@192.168.92.200>;tag=2026881436
+            SIP from address: sip:6104@192.168.92.200
+                SIP from address User Part: 6104
+                SIP from address Host Part: 192.168.92.200
+            SIP from tag: 2026881436
+        To: <sip:8888@192.168.92.200>;tag=z9hG4bK458159697
+            SIP to address: sip:8888@192.168.92.200
+                SIP to address User Part: 8888
+                SIP to address Host Part: 192.168.92.200
+            SIP to tag: z9hG4bK458159697
+        Call-ID: 224115816-48441-246@BJC.BGI.JC.FC
+        CSeq: 2450 ACK
+            Sequence Number: 2450
+            Method: ACK
+        Content-Length: 0
+
+Frame 303: 61 bytes on wire (488 bits), 61 bytes captured (488 bits) on interface 0
+    Interface id: 0 (enp2s0)
+        Interface name: enp2s0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 13, 2019 11:18:31.059618351 CST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1565666311.059618351 seconds
+    [Time delta from previous captured frame: 0.000009512 seconds]
+    [Time delta from previous displayed frame: 0.175077130 seconds]
+    [Time since reference or first frame: 1.521747490 seconds]
+    Frame Number: 303
+    Frame Length: 61 bytes (488 bits)
+    Capture Length: 61 bytes (488 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:sip:sdp]
+Ethernet II, Src: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e), Dst: Grandstr_56:67:87 (00:0b:82:56:67:87)
+    Destination: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        Address: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+        Address: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.92.52, Dst: 192.168.92.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x68 (DSCP: AF31, ECN: Not-ECT)
+        0110 10.. = Differentiated Services Codepoint: Assured Forwarding 31 (26)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 47
+    Identification: 0x4ee1 (20193)
+    Flags: 0x00b9
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 1011 1001 = Fragment offset: 185
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0xf06e [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.92.52
+    Destination: 192.168.92.200
+    [2 IPv4 Fragments (1507 bytes): #302(1480), #303(27)]
+        [Frame: 302, payload: 0-1479 (1480 bytes)]
+        [Frame: 303, payload: 1480-1506 (27 bytes)]
+        [Fragment count: 2]
+        [Reassembled IPv4 length: 1507]
+        [Reassembled IPv4 data: bd3913c405e3d860494e56495445207369703a3838383840...]
+User Datagram Protocol, Src Port: 48441, Dst Port: 5060
+    Source Port: 48441
+    Destination Port: 5060
+    Length: 1507
+    Checksum: 0xd860 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 17]
+Session Initiation Protocol (INVITE)
+    Request-Line: INVITE sip:8888@192.168.92.200 SIP/2.0
+        Method: INVITE
+        Request-URI: sip:8888@192.168.92.200
+            Request-URI User Part: 8888
+            Request-URI Host Part: 192.168.92.200
+        [Resent Packet: False]
+    Message Header
+        Via: SIP/2.0/UDP 192.168.92.52:48441;branch=z9hG4bK1268335241;rport
+            Transport: UDP
+            Sent-by Address: 192.168.92.52
+            Sent-by port: 48441
+            Branch: z9hG4bK1268335241
+            RPort: rport
+        From: <sip:6104@192.168.92.200>;tag=2026881436
+            SIP from address: sip:6104@192.168.92.200
+                SIP from address User Part: 6104
+                SIP from address Host Part: 192.168.92.200
+            SIP from tag: 2026881436
+        To: <sip:8888@192.168.92.200>
+            SIP to address: sip:8888@192.168.92.200
+                SIP to address User Part: 8888
+                SIP to address Host Part: 192.168.92.200
+        Call-ID: 224115816-48441-246@BJC.BGI.JC.FC
+        CSeq: 2451 INVITE
+            Sequence Number: 2451
+            Method: INVITE
+        Contact: <sip:6104@192.168.92.52:48441>
+            Contact URI: sip:6104@192.168.92.52:48441
+                Contact URI User Part: 6104
+                Contact URI Host Part: 192.168.92.52
+                Contact URI Host Port: 48441
+         [truncated]Authorization: Digest username="6104", realm="grandstream", nonce="1565666256/da963203bc014e09ec6095a54296a05e", uri="sip:8888@192.168.92.200", response="0d852bf80005840722d56497c850582c", algorithm=md5, cnonce="12636170", opa
+            Authentication Scheme: Digest
+            Username: "6104"
+            Realm: "grandstream"
+            Nonce Value: "1565666256/da963203bc014e09ec6095a54296a05e"
+            Authentication URI: "sip:8888@192.168.92.200"
+            Digest Authentication Response: "0d852bf80005840722d56497c850582c"
+            Algorithm: md5
+            CNonce Value: "12636170"
+            Opaque Value: "369d6afc3dbbd583"
+            QOP: auth
+            Nonce Count: 00000001
+        X-Grandstream-PBX: true
+            [Expert Info (Note/Undecoded): Unrecognised SIP header (x-grandstream-pbx)]
+                [Unrecognised SIP header (x-grandstream-pbx)]
+                [Severity level: Note]
+                [Group: Undecoded]
+        Max-Forwards: 70
+        User-Agent: Grandstream GRP2614 1.0.1.3
+        Privacy: none
+        P-Preferred-Identity: <sip:6104@192.168.92.200>
+            SIP PPI Address: sip:6104@192.168.92.200
+                SIP PPI User Part: 6104
+                SIP PPI Host Part: 192.168.92.200
+        P-Access-Network-Info: IEEE-EUI-48;eui-48-addr=9C-37-F4-84-05-53
+            access-type: IEEE-EUI-48
+            eui-48-addr=9C-37-F4-84-05-53
+        P-Emergency-Info: IEEE-EUI-48;eui-48-addr=00-0B-82-F9-AE-8E
+            [Expert Info (Note/Undecoded): Unrecognised SIP header (p-emergency-info)]
+                [Unrecognised SIP header (p-emergency-info)]
+                [Severity level: Note]
+                [Group: Undecoded]
+        Supported: replaces, path
+        Allow: INVITE, ACK, OPTIONS, CANCEL, BYE, SUBSCRIBE, NOTIFY, INFO, REFER, UPDATE, MESSAGE
+        Content-Type: application/sdp
+        Accept: application/sdp, application/dtmf-relay
+        Content-Length:   436
+    Message Body
+        Session Description Protocol
+            Session Description Protocol Version (v): 0
+            Owner/Creator, Session Id (o): 6104 8000 8000 IN IP4 192.168.92.52
+                Owner Username: 6104
+                Session ID: 8000
+                Session Version: 8000
+                Owner Network Type: IN
+                Owner Address Type: IP4
+                Owner Address: 192.168.92.52
+            Session Name (s): SIP Call
+            Connection Information (c): IN IP4 192.168.92.52
+                Connection Network Type: IN
+                Connection Address Type: IP4
+                Connection Address: 192.168.92.52
+            Time Description, active time (t): 0 0
+                Session Start Time: 0
+                Session Stop Time: 0
+            Media Description, name and address (m): audio 47524 RTP/AVP 0 8 4 18 9 97 2 123 101
+                Media Type: audio
+                Media Port: 47524
+                Media Protocol: RTP/AVP
+                Media Format: ITU-T G.711 PCMU
+                Media Format: ITU-T G.711 PCMA
+                Media Format: ITU-T G.723
+                Media Format: ITU-T G.729
+                Media Format: ITU-T G.722
+                Media Format: DynamicRTP-Type-97
+                Media Format: ITU-T G.721
+                Media Format: DynamicRTP-Type-123
+                Media Format: DynamicRTP-Type-101
+            Media Attribute (a): sendrecv
+            Media Attribute (a): rtpmap:0 PCMU/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 0
+                MIME Type: PCMU
+                Sample Rate: 8000
+            Media Attribute (a): ptime:20
+                Media Attribute Fieldname: ptime
+                Media Attribute Value: 20
+            Media Attribute (a): rtpmap:8 PCMA/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 8
+                MIME Type: PCMA
+                Sample Rate: 8000
+            Media Attribute (a): rtpmap:4 G723/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 4
+                MIME Type: G723
+                Sample Rate: 8000
+            Media Attribute (a): rtpmap:18 G729/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 18
+                MIME Type: G729
+                Sample Rate: 8000
+            Media Attribute (a): fmtp:18 annexb=no
+                Media Attribute Fieldname: fmtp
+                Media Format: 18 [G729]
+                Media format specific parameters: annexb=no
+            Media Attribute (a): rtpmap:9 G722/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 9
+                MIME Type: G722
+                Sample Rate: 8000
+            Media Attribute (a): rtpmap:97 iLBC/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 97
+                MIME Type: iLBC
+                Sample Rate: 8000
+            Media Attribute (a): fmtp:97 mode=30
+                Media Attribute Fieldname: fmtp
+                Media Format: 97 [iLBC]
+                Media format specific parameters: mode=30
+            Media Attribute (a): rtpmap:2 G726-32/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 2
+                MIME Type: G726-32
+                Sample Rate: 8000
+            Media Attribute (a): rtpmap:123 opus/48000/2
+                Media Attribute Fieldname: rtpmap
+                Media Format: 123
+                MIME Type: opus
+                Sample Rate: 48000
+            Media Attribute (a): rtpmap:101 telephone-event/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 101
+                MIME Type: telephone-event
+                Sample Rate: 8000
+            Media Attribute (a): fmtp:101 0-15
+                Media Attribute Fieldname: fmtp
+                Media Format: 101 [telephone-event]
+                Media format specific parameters: 0-15
+
+Frame 314: 368 bytes on wire (2944 bits), 368 bytes captured (2944 bits) on interface 0
+    Interface id: 0 (enp2s0)
+        Interface name: enp2s0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 13, 2019 11:18:31.138845637 CST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1565666311.138845637 seconds
+    [Time delta from previous captured frame: 0.007224698 seconds]
+    [Time delta from previous displayed frame: 0.079227286 seconds]
+    [Time since reference or first frame: 1.600974776 seconds]
+    Frame Number: 314
+    Frame Length: 368 bytes (2944 bits)
+    Capture Length: 368 bytes (2944 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:sip]
+Ethernet II, Src: Grandstr_56:67:87 (00:0b:82:56:67:87), Dst: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+    Destination: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+        Address: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        Address: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.92.200, Dst: 192.168.92.52
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 354
+    Identification: 0x0000 (0)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0xff3d [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.92.200
+    Destination: 192.168.92.52
+User Datagram Protocol, Src Port: 5060, Dst Port: 48441
+    Source Port: 5060
+    Destination Port: 48441
+    Length: 334
+    Checksum: 0x3d35 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 17]
+Session Initiation Protocol (100)
+    Status-Line: SIP/2.0 100 Trying
+        Status-Code: 100
+        [Resent Packet: False]
+        [Request Frame: 303]
+        [Response Time (ms): 79]
+    Message Header
+        Via: SIP/2.0/UDP 192.168.92.52:48441;rport=48441;received=192.168.92.52;branch=z9hG4bK1268335241
+            Transport: UDP
+            Sent-by Address: 192.168.92.52
+            Sent-by port: 48441
+            RPort: 48441
+            Received: 192.168.92.52
+            Branch: z9hG4bK1268335241
+        Call-ID: 224115816-48441-246@BJC.BGI.JC.FC
+        From: <sip:6104@192.168.92.200>;tag=2026881436
+            SIP from address: sip:6104@192.168.92.200
+                SIP from address User Part: 6104
+                SIP from address Host Part: 192.168.92.200
+            SIP from tag: 2026881436
+        To: <sip:8888@192.168.92.200>
+            SIP to address: sip:8888@192.168.92.200
+                SIP to address User Part: 8888
+                SIP to address Host Part: 192.168.92.200
+        CSeq: 2451 INVITE
+            Sequence Number: 2451
+            Method: INVITE
+        Server: Grandstream UCM6116V1.5A 1.0.18.12
+        Content-Length:  0
+
+Frame 444: 1169 bytes on wire (9352 bits), 1169 bytes captured (9352 bits) on interface 0
+    Interface id: 0 (enp2s0)
+        Interface name: enp2s0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 13, 2019 11:18:32.313183336 CST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1565666312.313183336 seconds
+    [Time delta from previous captured frame: 0.018131005 seconds]
+    [Time delta from previous displayed frame: 1.174337699 seconds]
+    [Time since reference or first frame: 2.775312475 seconds]
+    Frame Number: 444
+    Frame Length: 1169 bytes (9352 bits)
+    Capture Length: 1169 bytes (9352 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:sip:sdp]
+Ethernet II, Src: Grandstr_56:67:87 (00:0b:82:56:67:87), Dst: Grandstr_59:38:9f (00:0b:82:59:38:9f)
+    Destination: Grandstr_59:38:9f (00:0b:82:59:38:9f)
+        Address: Grandstr_59:38:9f (00:0b:82:59:38:9f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        Address: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.92.200, Dst: 192.168.92.48
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 1155
+    Identification: 0x0000 (0)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0xfc20 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.92.200
+    Destination: 192.168.92.48
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+    Source Port: 5060
+    Destination Port: 5060
+    Length: 1135
+    Checksum: 0x84bc [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 23]
+Session Initiation Protocol (INVITE)
+    Request-Line: INVITE sip:8888@192.168.92.48:5060 SIP/2.0
+        Method: INVITE
+        Request-URI: sip:8888@192.168.92.48:5060
+            Request-URI User Part: 8888
+            Request-URI Host Part: 192.168.92.48
+            Request-URI Host Port: 5060
+        [Resent Packet: False]
+    Message Header
+        Via: SIP/2.0/UDP 192.168.92.200:5060;rport;branch=z9hG4bKPje3634d9f-0d7a-4585-889a-26c99e661c2d
+            Transport: UDP
+            Sent-by Address: 192.168.92.200
+            Sent-by port: 5060
+            RPort: rport
+            Branch: z9hG4bKPje3634d9f-0d7a-4585-889a-26c99e661c2d
+        From: "6104" <sip:6104@192.168.92.200>;tag=f159902e-57f7-401c-ac17-188c633cdb12
+            SIP Display info: "6104"
+            SIP from address: sip:6104@192.168.92.200
+                SIP from address User Part: 6104
+                SIP from address Host Part: 192.168.92.200
+            SIP from tag: f159902e-57f7-401c-ac17-188c633cdb12
+        To: <sip:8888@192.168.92.48>
+            SIP to address: sip:8888@192.168.92.48
+                SIP to address User Part: 8888
+                SIP to address Host Part: 192.168.92.48
+        Contact: "6104" <sip:6104@192.168.92.200:5060>
+            SIP Display info: "6104"
+            Contact URI: sip:6104@192.168.92.200:5060
+                Contact URI User Part: 6104
+                Contact URI Host Part: 192.168.92.200
+                Contact URI Host Port: 5060
+        Call-ID: d8bf4b59-e442-4cc5-9107-7494578812e8
+        CSeq: 32592 INVITE
+            Sequence Number: 32592
+            Method: INVITE
+        Allow: OPTIONS, INFO, SUBSCRIBE, NOTIFY, PUBLISH, INVITE, ACK, BYE, CANCEL, UPDATE, PRACK, REFER, MESSAGE, REGISTER
+        Supported: 100rel, norefersub, replaces
+        X-UCM-AudioRecord: *3
+            [Expert Info (Note/Undecoded): Unrecognised SIP header (x-ucm-audiorecord)]
+                [Unrecognised SIP header (x-ucm-audiorecord)]
+                [Severity level: Note]
+                [Group: Undecoded]
+        X-UCM-CallPark: #72
+            [Expert Info (Note/Undecoded): Unrecognised SIP header (x-ucm-callpark)]
+                [Unrecognised SIP header (x-ucm-callpark)]
+                [Severity level: Note]
+                [Group: Undecoded]
+        Remote-Party-ID: "6104" <sip:6104@192.168.92.200>;privacy=off;screen=no
+            [Expert Info (Note/Undecoded): Unrecognised SIP header (remote-party-id)]
+                [Unrecognised SIP header (remote-party-id)]
+                [Severity level: Note]
+                [Group: Undecoded]
+        Max-Forwards: 70
+        User-Agent: Grandstream UCM6116V1.5A 1.0.18.12
+        Content-Type: application/sdp
+        Content-Length:   363
+    Message Body
+        Session Description Protocol
+            Session Description Protocol Version (v): 0
+            Owner/Creator, Session Id (o): - 539729484 539729484 IN IP4 192.168.92.200
+                Owner Username: -
+                Session ID: 539729484
+                Session Version: 539729484
+                Owner Network Type: IN
+                Owner Address Type: IP4
+                Owner Address: 192.168.92.200
+            Session Name (s): Asterisk
+            Connection Information (c): IN IP4 192.168.92.200
+                Connection Network Type: IN
+                Connection Address Type: IP4
+                Connection Address: 192.168.92.200
+            Time Description, active time (t): 0 0
+                Session Start Time: 0
+                Session Stop Time: 0
+            Media Description, name and address (m): audio 15310 RTP/AVP 0 8 18 9 2 3 101
+                Media Type: audio
+                Media Port: 15310
+                Media Protocol: RTP/AVP
+                Media Format: ITU-T G.711 PCMU
+                Media Format: ITU-T G.711 PCMA
+                Media Format: ITU-T G.729
+                Media Format: ITU-T G.722
+                Media Format: ITU-T G.721
+                Media Format: GSM 06.10
+                Media Format: DynamicRTP-Type-101
+            Media Attribute (a): rtpmap:0 PCMU/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 0
+                MIME Type: PCMU
+                Sample Rate: 8000
+            Media Attribute (a): rtpmap:8 PCMA/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 8
+                MIME Type: PCMA
+                Sample Rate: 8000
+            Media Attribute (a): rtpmap:18 G729/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 18
+                MIME Type: G729
+                Sample Rate: 8000
+            Media Attribute (a): rtpmap:9 G722/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 9
+                MIME Type: G722
+                Sample Rate: 8000
+            Media Attribute (a): rtpmap:2 G726-32/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 2
+                MIME Type: G726-32
+                Sample Rate: 8000
+            Media Attribute (a): rtpmap:3 GSM/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 3
+                MIME Type: GSM
+                Sample Rate: 8000
+            Media Attribute (a): rtpmap:101 telephone-event/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 101
+                MIME Type: telephone-event
+                Sample Rate: 8000
+            Media Attribute (a): fmtp:101 0-16
+                Media Attribute Fieldname: fmtp
+                Media Format: 101 [telephone-event]
+                Media format specific parameters: 0-16
+            Media Attribute (a): ptime:20
+                Media Attribute Fieldname: ptime
+                Media Attribute Value: 20
+            Media Attribute (a): maxptime:150
+                Media Attribute Fieldname: maxptime
+                Media Attribute Value: 150
+            Media Attribute (a): sendrecv
+
+Frame 469: 531 bytes on wire (4248 bits), 531 bytes captured (4248 bits) on interface 0
+    Interface id: 0 (enp2s0)
+        Interface name: enp2s0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 13, 2019 11:18:32.358972908 CST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1565666312.358972908 seconds
+    [Time delta from previous captured frame: 0.002009711 seconds]
+    [Time delta from previous displayed frame: 0.045789572 seconds]
+    [Time since reference or first frame: 2.821102047 seconds]
+    Frame Number: 469
+    Frame Length: 531 bytes (4248 bits)
+    Capture Length: 531 bytes (4248 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:sip]
+Ethernet II, Src: Grandstr_59:38:9f (00:0b:82:59:38:9f), Dst: Grandstr_56:67:87 (00:0b:82:56:67:87)
+    Destination: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        Address: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Grandstr_59:38:9f (00:0b:82:59:38:9f)
+        Address: Grandstr_59:38:9f (00:0b:82:59:38:9f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.92.48, Dst: 192.168.92.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x68 (DSCP: AF31, ECN: Not-ECT)
+        0110 10.. = Differentiated Services Codepoint: Assured Forwarding 31 (26)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 517
+    Identification: 0x7117 (28951)
+    Flags: 0x0000
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0xcd1f [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.92.48
+    Destination: 192.168.92.200
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+    Source Port: 5060
+    Destination Port: 5060
+    Length: 497
+    Checksum: 0xe19a [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 23]
+Session Initiation Protocol (100)
+    Status-Line: SIP/2.0 100 Trying
+        Status-Code: 100
+        [Resent Packet: False]
+        [Request Frame: 444]
+        [Response Time (ms): 45]
+    Message Header
+        Via: SIP/2.0/UDP 192.168.92.200:5060;rport=5060;branch=z9hG4bKPje3634d9f-0d7a-4585-889a-26c99e661c2d
+            Transport: UDP
+            Sent-by Address: 192.168.92.200
+            Sent-by port: 5060
+            RPort: 5060
+            Branch: z9hG4bKPje3634d9f-0d7a-4585-889a-26c99e661c2d
+        From: "6104" <sip:6104@192.168.92.200>;tag=f159902e-57f7-401c-ac17-188c633cdb12
+            SIP Display info: "6104"
+            SIP from address: sip:6104@192.168.92.200
+                SIP from address User Part: 6104
+                SIP from address Host Part: 192.168.92.200
+            SIP from tag: f159902e-57f7-401c-ac17-188c633cdb12
+        To: <sip:8888@192.168.92.48>
+            SIP to address: sip:8888@192.168.92.48
+                SIP to address User Part: 8888
+                SIP to address Host Part: 192.168.92.48
+        Call-ID: d8bf4b59-e442-4cc5-9107-7494578812e8
+        CSeq: 32592 INVITE
+            Sequence Number: 32592
+            Method: INVITE
+        Supported: replaces, path, timer
+        User-Agent: Grandstream GXP2140 0.4.25.45
+        Allow: INVITE, ACK, OPTIONS, CANCEL, BYE, SUBSCRIBE, NOTIFY, INFO, REFER, UPDATE, MESSAGE
+        Content-Length: 0
+
+Frame 543: 612 bytes on wire (4896 bits), 612 bytes captured (4896 bits) on interface 0
+    Interface id: 0 (enp2s0)
+        Interface name: enp2s0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 13, 2019 11:18:32.528009414 CST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1565666312.528009414 seconds
+    [Time delta from previous captured frame: 0.000027036 seconds]
+    [Time delta from previous displayed frame: 0.169036506 seconds]
+    [Time since reference or first frame: 2.990138553 seconds]
+    Frame Number: 543
+    Frame Length: 612 bytes (4896 bits)
+    Capture Length: 612 bytes (4896 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:sip]
+Ethernet II, Src: Grandstr_59:38:9f (00:0b:82:59:38:9f), Dst: Grandstr_56:67:87 (00:0b:82:56:67:87)
+    Destination: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        Address: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Grandstr_59:38:9f (00:0b:82:59:38:9f)
+        Address: Grandstr_59:38:9f (00:0b:82:59:38:9f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.92.48, Dst: 192.168.92.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x68 (DSCP: AF31, ECN: Not-ECT)
+        0110 10.. = Differentiated Services Codepoint: Assured Forwarding 31 (26)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 598
+    Identification: 0x7118 (28952)
+    Flags: 0x0000
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0xcccd [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.92.48
+    Destination: 192.168.92.200
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+    Source Port: 5060
+    Destination Port: 5060
+    Length: 578
+    Checksum: 0x4eed [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 23]
+Session Initiation Protocol (180)
+    Status-Line: SIP/2.0 180 Ringing
+        Status-Code: 180
+        [Resent Packet: False]
+        [Request Frame: 444]
+        [Response Time (ms): 214]
+    Message Header
+        Via: SIP/2.0/UDP 192.168.92.200:5060;rport=5060;branch=z9hG4bKPje3634d9f-0d7a-4585-889a-26c99e661c2d
+            Transport: UDP
+            Sent-by Address: 192.168.92.200
+            Sent-by port: 5060
+            RPort: 5060
+            Branch: z9hG4bKPje3634d9f-0d7a-4585-889a-26c99e661c2d
+        From: "6104" <sip:6104@192.168.92.200>;tag=f159902e-57f7-401c-ac17-188c633cdb12
+            SIP Display info: "6104"
+            SIP from address: sip:6104@192.168.92.200
+                SIP from address User Part: 6104
+                SIP from address Host Part: 192.168.92.200
+            SIP from tag: f159902e-57f7-401c-ac17-188c633cdb12
+        To: <sip:8888@192.168.92.48>;tag=153128052
+            SIP to address: sip:8888@192.168.92.48
+                SIP to address User Part: 8888
+                SIP to address Host Part: 192.168.92.48
+            SIP to tag: 153128052
+        Call-ID: d8bf4b59-e442-4cc5-9107-7494578812e8
+        CSeq: 32592 INVITE
+            Sequence Number: 32592
+            Method: INVITE
+        Contact: <sip:8888@192.168.92.48:5060>
+            Contact URI: sip:8888@192.168.92.48:5060
+                Contact URI User Part: 8888
+                Contact URI Host Part: 192.168.92.48
+                Contact URI Host Port: 5060
+        Supported: replaces, path, timer
+        User-Agent: Grandstream GXP2140 0.4.25.45
+        Allow-Events: talk, hold
+        Allow: INVITE, ACK, OPTIONS, CANCEL, BYE, SUBSCRIBE, NOTIFY, INFO, REFER, UPDATE, MESSAGE
+        Content-Length: 0
+
+Frame 544: 634 bytes on wire (5072 bits), 634 bytes captured (5072 bits) on interface 0
+    Interface id: 0 (enp2s0)
+        Interface name: enp2s0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 13, 2019 11:18:32.540820619 CST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1565666312.540820619 seconds
+    [Time delta from previous captured frame: 0.012811205 seconds]
+    [Time delta from previous displayed frame: 0.012811205 seconds]
+    [Time since reference or first frame: 3.002949758 seconds]
+    Frame Number: 544
+    Frame Length: 634 bytes (5072 bits)
+    Capture Length: 634 bytes (5072 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:sip]
+Ethernet II, Src: Grandstr_56:67:87 (00:0b:82:56:67:87), Dst: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+    Destination: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+        Address: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        Address: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.92.200, Dst: 192.168.92.52
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 620
+    Identification: 0x0000 (0)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0xfe33 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.92.200
+    Destination: 192.168.92.52
+User Datagram Protocol, Src Port: 5060, Dst Port: 48441
+    Source Port: 5060
+    Destination Port: 48441
+    Length: 600
+    Checksum: 0x8079 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 17]
+Session Initiation Protocol (180)
+    Status-Line: SIP/2.0 180 Ringing
+        Status-Code: 180
+        [Resent Packet: False]
+        [Request Frame: 303]
+        [Response Time (ms): 1481]
+    Message Header
+        Via: SIP/2.0/UDP 192.168.92.52:48441;rport=48441;received=192.168.92.52;branch=z9hG4bK1268335241
+            Transport: UDP
+            Sent-by Address: 192.168.92.52
+            Sent-by port: 48441
+            RPort: 48441
+            Received: 192.168.92.52
+            Branch: z9hG4bK1268335241
+        Call-ID: 224115816-48441-246@BJC.BGI.JC.FC
+        From: <sip:6104@192.168.92.200>;tag=2026881436
+            SIP from address: sip:6104@192.168.92.200
+                SIP from address User Part: 6104
+                SIP from address Host Part: 192.168.92.200
+            SIP from tag: 2026881436
+        To: <sip:8888@192.168.92.200>;tag=ae9674ba-fee4-4b24-a986-62904b4964a8
+            SIP to address: sip:8888@192.168.92.200
+                SIP to address User Part: 8888
+                SIP to address Host Part: 192.168.92.200
+            SIP to tag: ae9674ba-fee4-4b24-a986-62904b4964a8
+        CSeq: 2451 INVITE
+            Sequence Number: 2451
+            Method: INVITE
+        Server: Grandstream UCM6116V1.5A 1.0.18.12
+        Contact: <sip:6104@192.168.92.200:5060>
+            Contact URI: sip:6104@192.168.92.200:5060
+                Contact URI User Part: 6104
+                Contact URI Host Part: 192.168.92.200
+                Contact URI Host Port: 5060
+        Allow: OPTIONS, INFO, SUBSCRIBE, NOTIFY, PUBLISH, INVITE, ACK, BYE, CANCEL, UPDATE, PRACK, REFER, MESSAGE, REGISTER
+        Remote-Party-ID: <sip:8888@192.168.92.200>;privacy=off;screen=no
+            [Expert Info (Note/Undecoded): Unrecognised SIP header (remote-party-id)]
+                [Unrecognised SIP header (remote-party-id)]
+                [Severity level: Note]
+                [Group: Undecoded]
+        Content-Length:  0
+
+Frame 981: 951 bytes on wire (7608 bits), 951 bytes captured (7608 bits) on interface 0
+    Interface id: 0 (enp2s0)
+        Interface name: enp2s0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 13, 2019 11:18:36.193168394 CST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1565666316.193168394 seconds
+    [Time delta from previous captured frame: 0.002257003 seconds]
+    [Time delta from previous displayed frame: 3.652347775 seconds]
+    [Time since reference or first frame: 6.655297533 seconds]
+    Frame Number: 981
+    Frame Length: 951 bytes (7608 bits)
+    Capture Length: 951 bytes (7608 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:sip:sdp]
+Ethernet II, Src: Grandstr_59:38:9f (00:0b:82:59:38:9f), Dst: Grandstr_56:67:87 (00:0b:82:56:67:87)
+    Destination: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        Address: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Grandstr_59:38:9f (00:0b:82:59:38:9f)
+        Address: Grandstr_59:38:9f (00:0b:82:59:38:9f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.92.48, Dst: 192.168.92.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x68 (DSCP: AF31, ECN: Not-ECT)
+        0110 10.. = Differentiated Services Codepoint: Assured Forwarding 31 (26)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 937
+    Identification: 0x7119 (28953)
+    Flags: 0x0000
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0xcb79 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.92.48
+    Destination: 192.168.92.200
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+    Source Port: 5060
+    Destination Port: 5060
+    Length: 917
+    Checksum: 0xdf30 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 23]
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+        Status-Code: 200
+        [Resent Packet: False]
+        [Request Frame: 444]
+        [Response Time (ms): 3880]
+    Message Header
+        Via: SIP/2.0/UDP 192.168.92.200:5060;rport=5060;branch=z9hG4bKPje3634d9f-0d7a-4585-889a-26c99e661c2d
+            Transport: UDP
+            Sent-by Address: 192.168.92.200
+            Sent-by port: 5060
+            RPort: 5060
+            Branch: z9hG4bKPje3634d9f-0d7a-4585-889a-26c99e661c2d
+        From: "6104" <sip:6104@192.168.92.200>;tag=f159902e-57f7-401c-ac17-188c633cdb12
+            SIP Display info: "6104"
+            SIP from address: sip:6104@192.168.92.200
+                SIP from address User Part: 6104
+                SIP from address Host Part: 192.168.92.200
+            SIP from tag: f159902e-57f7-401c-ac17-188c633cdb12
+        To: <sip:8888@192.168.92.48>;tag=153128052
+            SIP to address: sip:8888@192.168.92.48
+                SIP to address User Part: 8888
+                SIP to address Host Part: 192.168.92.48
+            SIP to tag: 153128052
+        Call-ID: d8bf4b59-e442-4cc5-9107-7494578812e8
+        CSeq: 32592 INVITE
+            Sequence Number: 32592
+            Method: INVITE
+        Contact: <sip:8888@192.168.92.48:5060>
+            Contact URI: sip:8888@192.168.92.48:5060
+                Contact URI User Part: 8888
+                Contact URI Host Part: 192.168.92.48
+                Contact URI Host Port: 5060
+        Supported: replaces, path, timer
+        User-Agent: Grandstream GXP2140 0.4.25.45
+        Allow: INVITE, ACK, OPTIONS, CANCEL, BYE, SUBSCRIBE, NOTIFY, INFO, REFER, UPDATE, MESSAGE
+        Content-Type: application/sdp
+        Content-Length:   335
+    Message Body
+        Session Description Protocol
+            Session Description Protocol Version (v): 0
+            Owner/Creator, Session Id (o): 8888 8000 8000 IN IP4 192.168.92.48
+                Owner Username: 8888
+                Session ID: 8000
+                Session Version: 8000
+                Owner Network Type: IN
+                Owner Address Type: IP4
+                Owner Address: 192.168.92.48
+            Session Name (s): SIP Call
+            Connection Information (c): IN IP4 192.168.92.48
+                Connection Network Type: IN
+                Connection Address Type: IP4
+                Connection Address: 192.168.92.48
+            Time Description, active time (t): 0 0
+                Session Start Time: 0
+                Session Stop Time: 0
+            Media Description, name and address (m): audio 5024 RTP/AVP 0 8 18 9 2 101
+                Media Type: audio
+                Media Port: 5024
+                Media Protocol: RTP/AVP
+                Media Format: ITU-T G.711 PCMU
+                Media Format: ITU-T G.711 PCMA
+                Media Format: ITU-T G.729
+                Media Format: ITU-T G.722
+                Media Format: ITU-T G.721
+                Media Format: DynamicRTP-Type-101
+            Media Attribute (a): sendrecv
+            Media Attribute (a): rtpmap:0 PCMU/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 0
+                MIME Type: PCMU
+                Sample Rate: 8000
+            Media Attribute (a): ptime:20
+                Media Attribute Fieldname: ptime
+                Media Attribute Value: 20
+            Media Attribute (a): rtpmap:8 PCMA/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 8
+                MIME Type: PCMA
+                Sample Rate: 8000
+            Media Attribute (a): rtpmap:18 G729/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 18
+                MIME Type: G729
+                Sample Rate: 8000
+            Media Attribute (a): fmtp:18 annexb=no
+                Media Attribute Fieldname: fmtp
+                Media Format: 18 [G729]
+                Media format specific parameters: annexb=no
+            Media Attribute (a): rtpmap:9 G722/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 9
+                MIME Type: G722
+                Sample Rate: 8000
+            Media Attribute (a): rtpmap:2 G726-32/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 2
+                MIME Type: G726-32
+                Sample Rate: 8000
+            Media Attribute (a): rtpmap:101 telephone-event/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 101
+                MIME Type: telephone-event
+                Sample Rate: 8000
+            Media Attribute (a): fmtp:101 0-15
+                Media Attribute Fieldname: fmtp
+                Media Format: 101 [telephone-event]
+                Media format specific parameters: 0-15
+
+Frame 984: 457 bytes on wire (3656 bits), 457 bytes captured (3656 bits) on interface 0
+    Interface id: 0 (enp2s0)
+        Interface name: enp2s0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 13, 2019 11:18:36.210183686 CST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1565666316.210183686 seconds
+    [Time delta from previous captured frame: 0.015412519 seconds]
+    [Time delta from previous displayed frame: 0.017015292 seconds]
+    [Time since reference or first frame: 6.672312825 seconds]
+    Frame Number: 984
+    Frame Length: 457 bytes (3656 bits)
+    Capture Length: 457 bytes (3656 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:sip]
+Ethernet II, Src: Grandstr_56:67:87 (00:0b:82:56:67:87), Dst: Grandstr_59:38:9f (00:0b:82:59:38:9f)
+    Destination: Grandstr_59:38:9f (00:0b:82:59:38:9f)
+        Address: Grandstr_59:38:9f (00:0b:82:59:38:9f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        Address: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.92.200, Dst: 192.168.92.48
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 443
+    Identification: 0x0000 (0)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0xfee8 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.92.200
+    Destination: 192.168.92.48
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+    Source Port: 5060
+    Destination Port: 5060
+    Length: 423
+    Checksum: 0x7f84 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 23]
+Session Initiation Protocol (ACK)
+    Request-Line: ACK sip:8888@192.168.92.48:5060 SIP/2.0
+        Method: ACK
+        Request-URI: sip:8888@192.168.92.48:5060
+            Request-URI User Part: 8888
+            Request-URI Host Part: 192.168.92.48
+            Request-URI Host Port: 5060
+        [Resent Packet: False]
+        [Request Frame: 444]
+        [Response Time (ms): 3898]
+    Message Header
+        Via: SIP/2.0/UDP 192.168.92.200:5060;rport;branch=z9hG4bKPjf70de6cb-01e8-422d-acf3-925db0969d82
+            Transport: UDP
+            Sent-by Address: 192.168.92.200
+            Sent-by port: 5060
+            RPort: rport
+            Branch: z9hG4bKPjf70de6cb-01e8-422d-acf3-925db0969d82
+        From: "6104" <sip:6104@192.168.92.200>;tag=f159902e-57f7-401c-ac17-188c633cdb12
+            SIP Display info: "6104"
+            SIP from address: sip:6104@192.168.92.200
+                SIP from address User Part: 6104
+                SIP from address Host Part: 192.168.92.200
+            SIP from tag: f159902e-57f7-401c-ac17-188c633cdb12
+        To: <sip:8888@192.168.92.48>;tag=153128052
+            SIP to address: sip:8888@192.168.92.48
+                SIP to address User Part: 8888
+                SIP to address Host Part: 192.168.92.48
+            SIP to tag: 153128052
+        Call-ID: d8bf4b59-e442-4cc5-9107-7494578812e8
+        CSeq: 32592 ACK
+            Sequence Number: 32592
+            Method: ACK
+        Max-Forwards: 70
+        User-Agent: Grandstream UCM6116V1.5A 1.0.18.12
+        Content-Length:  0
+
+Frame 985: 1103 bytes on wire (8824 bits), 1103 bytes captured (8824 bits) on interface 0
+    Interface id: 0 (enp2s0)
+        Interface name: enp2s0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 13, 2019 11:18:36.253139371 CST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1565666316.253139371 seconds
+    [Time delta from previous captured frame: 0.042955685 seconds]
+    [Time delta from previous displayed frame: 0.042955685 seconds]
+    [Time since reference or first frame: 6.715268510 seconds]
+    Frame Number: 985
+    Frame Length: 1103 bytes (8824 bits)
+    Capture Length: 1103 bytes (8824 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:sip:sdp]
+Ethernet II, Src: Grandstr_56:67:87 (00:0b:82:56:67:87), Dst: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+    Destination: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+        Address: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        Address: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.92.200, Dst: 192.168.92.52
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 1089
+    Identification: 0x0000 (0)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0xfc5e [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.92.200
+    Destination: 192.168.92.52
+User Datagram Protocol, Src Port: 5060, Dst Port: 48441
+    Source Port: 5060
+    Destination Port: 48441
+    Length: 1069
+    Checksum: 0x51e4 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 17]
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+        Status-Code: 200
+        [Resent Packet: False]
+        [Request Frame: 303]
+        [Response Time (ms): 5193]
+    Message Header
+        Via: SIP/2.0/UDP 192.168.92.52:48441;rport=48441;received=192.168.92.52;branch=z9hG4bK1268335241
+            Transport: UDP
+            Sent-by Address: 192.168.92.52
+            Sent-by port: 48441
+            RPort: 48441
+            Received: 192.168.92.52
+            Branch: z9hG4bK1268335241
+        Call-ID: 224115816-48441-246@BJC.BGI.JC.FC
+        From: <sip:6104@192.168.92.200>;tag=2026881436
+            SIP from address: sip:6104@192.168.92.200
+                SIP from address User Part: 6104
+                SIP from address Host Part: 192.168.92.200
+            SIP from tag: 2026881436
+        To: <sip:8888@192.168.92.200>;tag=ae9674ba-fee4-4b24-a986-62904b4964a8
+            SIP to address: sip:8888@192.168.92.200
+                SIP to address User Part: 8888
+                SIP to address Host Part: 192.168.92.200
+            SIP to tag: ae9674ba-fee4-4b24-a986-62904b4964a8
+        CSeq: 2451 INVITE
+            Sequence Number: 2451
+            Method: INVITE
+        Server: Grandstream UCM6116V1.5A 1.0.18.12
+        Allow: OPTIONS, INFO, SUBSCRIBE, NOTIFY, PUBLISH, INVITE, ACK, BYE, CANCEL, UPDATE, PRACK, REFER, MESSAGE, REGISTER
+        Remote-Party-ID: <sip:8888@192.168.92.200>;privacy=off;screen=no
+            [Expert Info (Note/Undecoded): Unrecognised SIP header (remote-party-id)]
+                [Unrecognised SIP header (remote-party-id)]
+                [Severity level: Note]
+                [Group: Undecoded]
+        Contact: <sip:6104@192.168.92.200:5060>
+            Contact URI: sip:6104@192.168.92.200:5060
+                Contact URI User Part: 6104
+                Contact URI Host Part: 192.168.92.200
+                Contact URI Host Port: 5060
+        Supported: 100rel, norefersub, replaces
+        X-UCM-AudioRecord: *3
+            [Expert Info (Note/Undecoded): Unrecognised SIP header (x-ucm-audiorecord)]
+                [Unrecognised SIP header (x-ucm-audiorecord)]
+                [Severity level: Note]
+                [Group: Undecoded]
+        X-UCM-CallPark: #72
+            [Expert Info (Note/Undecoded): Unrecognised SIP header (x-ucm-callpark)]
+                [Unrecognised SIP header (x-ucm-callpark)]
+                [Severity level: Note]
+                [Group: Undecoded]
+        Content-Type: application/sdp
+        Content-Length:   355
+    Message Body
+        Session Description Protocol
+            Session Description Protocol Version (v): 0
+            Owner/Creator, Session Id (o): - 8000 8002 IN IP4 192.168.92.200
+                Owner Username: -
+                Session ID: 8000
+                Session Version: 8002
+                Owner Network Type: IN
+                Owner Address Type: IP4
+                Owner Address: 192.168.92.200
+            Session Name (s): Asterisk
+            Connection Information (c): IN IP4 192.168.92.200
+                Connection Network Type: IN
+                Connection Address Type: IP4
+                Connection Address: 192.168.92.200
+            Time Description, active time (t): 0 0
+                Session Start Time: 0
+                Session Stop Time: 0
+            Media Description, name and address (m): audio 14354 RTP/AVP 0 8 18 9 2 97 101
+                Media Type: audio
+                Media Port: 14354
+                Media Protocol: RTP/AVP
+                Media Format: ITU-T G.711 PCMU
+                Media Format: ITU-T G.711 PCMA
+                Media Format: ITU-T G.729
+                Media Format: ITU-T G.722
+                Media Format: ITU-T G.721
+                Media Format: DynamicRTP-Type-97
+                Media Format: DynamicRTP-Type-101
+            Media Attribute (a): rtpmap:0 PCMU/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 0
+                MIME Type: PCMU
+                Sample Rate: 8000
+            Media Attribute (a): rtpmap:8 PCMA/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 8
+                MIME Type: PCMA
+                Sample Rate: 8000
+            Media Attribute (a): rtpmap:18 G729/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 18
+                MIME Type: G729
+                Sample Rate: 8000
+            Media Attribute (a): rtpmap:9 G722/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 9
+                MIME Type: G722
+                Sample Rate: 8000
+            Media Attribute (a): rtpmap:2 G726-32/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 2
+                MIME Type: G726-32
+                Sample Rate: 8000
+            Media Attribute (a): rtpmap:97 iLBC/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 97
+                MIME Type: iLBC
+                Sample Rate: 8000
+            Media Attribute (a): rtpmap:101 telephone-event/8000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 101
+                MIME Type: telephone-event
+                Sample Rate: 8000
+            Media Attribute (a): fmtp:101 0-16
+                Media Attribute Fieldname: fmtp
+                Media Format: 101 [telephone-event]
+                Media format specific parameters: 0-16
+            Media Attribute (a): ptime:20
+                Media Attribute Fieldname: ptime
+                Media Attribute Value: 20
+            Media Attribute (a): maxptime:30
+                Media Attribute Fieldname: maxptime
+                Media Attribute Value: 30
+            Media Attribute (a): sendrecv
+
+Frame 999: 596 bytes on wire (4768 bits), 596 bytes captured (4768 bits) on interface 0
+    Interface id: 0 (enp2s0)
+        Interface name: enp2s0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 13, 2019 11:18:36.330051729 CST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1565666316.330051729 seconds
+    [Time delta from previous captured frame: 0.016471509 seconds]
+    [Time delta from previous displayed frame: 0.076912358 seconds]
+    [Time since reference or first frame: 6.792180868 seconds]
+    Frame Number: 999
+    Frame Length: 596 bytes (4768 bits)
+    Capture Length: 596 bytes (4768 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:sip]
+Ethernet II, Src: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e), Dst: Grandstr_56:67:87 (00:0b:82:56:67:87)
+    Destination: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        Address: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+        Address: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.92.52, Dst: 192.168.92.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x68 (DSCP: AF31, ECN: Not-ECT)
+        0110 10.. = Differentiated Services Codepoint: Assured Forwarding 31 (26)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 582
+    Identification: 0x4f24 (20260)
+    Flags: 0x0000
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0xeecd [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.92.52
+    Destination: 192.168.92.200
+User Datagram Protocol, Src Port: 48441, Dst Port: 5060
+    Source Port: 48441
+    Destination Port: 5060
+    Length: 562
+    Checksum: 0xbfb7 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 17]
+Session Initiation Protocol (ACK)
+    Request-Line: ACK sip:6104@192.168.92.200:5060 SIP/2.0
+        Method: ACK
+        Request-URI: sip:6104@192.168.92.200:5060
+            Request-URI User Part: 6104
+            Request-URI Host Part: 192.168.92.200
+            Request-URI Host Port: 5060
+        [Resent Packet: False]
+        [Request Frame: 303]
+        [Response Time (ms): 5270]
+    Message Header
+        Via: SIP/2.0/UDP 192.168.92.52:48441;branch=z9hG4bK196980957;rport
+            Transport: UDP
+            Sent-by Address: 192.168.92.52
+            Sent-by port: 48441
+            Branch: z9hG4bK196980957
+            RPort: rport
+        From: <sip:6104@192.168.92.200>;tag=2026881436
+            SIP from address: sip:6104@192.168.92.200
+                SIP from address User Part: 6104
+                SIP from address Host Part: 192.168.92.200
+            SIP from tag: 2026881436
+        To: <sip:8888@192.168.92.200>;tag=ae9674ba-fee4-4b24-a986-62904b4964a8
+            SIP to address: sip:8888@192.168.92.200
+                SIP to address User Part: 8888
+                SIP to address Host Part: 192.168.92.200
+            SIP to tag: ae9674ba-fee4-4b24-a986-62904b4964a8
+        Call-ID: 224115816-48441-246@BJC.BGI.JC.FC
+        CSeq: 2451 ACK
+            Sequence Number: 2451
+            Method: ACK
+        Contact: <sip:6104@192.168.92.52:48441>
+            Contact URI: sip:6104@192.168.92.52:48441
+                Contact URI User Part: 6104
+                Contact URI Host Part: 192.168.92.52
+                Contact URI Host Port: 48441
+        X-Grandstream-PBX: true
+            [Expert Info (Note/Undecoded): Unrecognised SIP header (x-grandstream-pbx)]
+                [Unrecognised SIP header (x-grandstream-pbx)]
+                [Severity level: Note]
+                [Group: Undecoded]
+        Max-Forwards: 70
+        Supported: replaces, path
+        User-Agent: Grandstream GRP2614 1.0.1.3
+        Allow: INVITE, ACK, OPTIONS, CANCEL, BYE, SUBSCRIBE, NOTIFY, INFO, REFER, UPDATE, MESSAGE
+        Content-Length: 0
+
+Frame 2997: 549 bytes on wire (4392 bits), 549 bytes captured (4392 bits) on interface 0
+    Interface id: 0 (enp2s0)
+        Interface name: enp2s0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 13, 2019 11:18:43.711062512 CST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1565666323.711062512 seconds
+    [Time delta from previous captured frame: 0.002793810 seconds]
+    [Time delta from previous displayed frame: 7.381010783 seconds]
+    [Time since reference or first frame: 14.173191651 seconds]
+    Frame Number: 2997
+    Frame Length: 549 bytes (4392 bits)
+    Capture Length: 549 bytes (4392 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:sip]
+Ethernet II, Src: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e), Dst: Grandstr_56:67:87 (00:0b:82:56:67:87)
+    Destination: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        Address: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+        Address: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.92.52, Dst: 192.168.92.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x68 (DSCP: AF31, ECN: Not-ECT)
+        0110 10.. = Differentiated Services Codepoint: Assured Forwarding 31 (26)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 535
+    Identification: 0x512c (20780)
+    Flags: 0x0000
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0xecf4 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.92.52
+    Destination: 192.168.92.200
+User Datagram Protocol, Src Port: 48441, Dst Port: 5060
+    Source Port: 48441
+    Destination Port: 5060
+    Length: 515
+    Checksum: 0x0f28 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 17]
+Session Initiation Protocol (OPTIONS)
+    Request-Line: OPTIONS sip:192.168.92.200 SIP/2.0
+        Method: OPTIONS
+        Request-URI: sip:192.168.92.200
+            Request-URI Host Part: 192.168.92.200
+        [Resent Packet: False]
+    Message Header
+        Via: SIP/2.0/UDP 192.168.92.52:48441;branch=z9hG4bK1795466113;rport
+            Transport: UDP
+            Sent-by Address: 192.168.92.52
+            Sent-by port: 48441
+            Branch: z9hG4bK1795466113
+            RPort: rport
+        From: <sip:6104@192.168.92.200>;tag=1823339704
+            SIP from address: sip:6104@192.168.92.200
+                SIP from address User Part: 6104
+                SIP from address Host Part: 192.168.92.200
+            SIP from tag: 1823339704
+        To: <sip:192.168.92.200>
+            SIP to address: sip:192.168.92.200
+                SIP to address Host Part: 192.168.92.200
+        Call-ID: 322277047-48441-247@BJC.BGI.JC.FC
+        CSeq: 2460 OPTIONS
+            Sequence Number: 2460
+            Method: OPTIONS
+        Contact: <sip:6104@192.168.92.52:48441>
+            Contact URI: sip:6104@192.168.92.52:48441
+                Contact URI User Part: 6104
+                Contact URI Host Part: 192.168.92.52
+                Contact URI Host Port: 48441
+        X-Grandstream-PBX: true
+            [Expert Info (Note/Undecoded): Unrecognised SIP header (x-grandstream-pbx)]
+                [Unrecognised SIP header (x-grandstream-pbx)]
+                [Severity level: Note]
+                [Group: Undecoded]
+        Max-Forwards: 70
+        User-Agent: Grandstream GRP2614 1.0.1.3
+        Supported: replaces, path
+        Allow: INVITE, ACK, OPTIONS, CANCEL, BYE, SUBSCRIBE, NOTIFY, INFO, REFER, UPDATE, MESSAGE
+        Content-Length: 0
+
+Frame 3012: 843 bytes on wire (6744 bits), 843 bytes captured (6744 bits) on interface 0
+    Interface id: 0 (enp2s0)
+        Interface name: enp2s0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 13, 2019 11:18:43.735650404 CST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1565666323.735650404 seconds
+    [Time delta from previous captured frame: 0.008597431 seconds]
+    [Time delta from previous displayed frame: 0.024587892 seconds]
+    [Time since reference or first frame: 14.197779543 seconds]
+    Frame Number: 3012
+    Frame Length: 843 bytes (6744 bits)
+    Capture Length: 843 bytes (6744 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:sip]
+Ethernet II, Src: Grandstr_56:67:87 (00:0b:82:56:67:87), Dst: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+    Destination: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+        Address: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        Address: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.92.200, Dst: 192.168.92.52
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 829
+    Identification: 0x0000 (0)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0xfd62 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.92.200
+    Destination: 192.168.92.52
+User Datagram Protocol, Src Port: 5060, Dst Port: 48441
+    Source Port: 5060
+    Destination Port: 48441
+    Length: 809
+    Checksum: 0x646a [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 17]
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+        Status-Code: 200
+        [Resent Packet: False]
+        [Request Frame: 2997]
+        [Response Time (ms): 24]
+    Message Header
+        Via: SIP/2.0/UDP 192.168.92.52:48441;rport=48441;received=192.168.92.52;branch=z9hG4bK1795466113
+            Transport: UDP
+            Sent-by Address: 192.168.92.52
+            Sent-by port: 48441
+            RPort: 48441
+            Received: 192.168.92.52
+            Branch: z9hG4bK1795466113
+        Call-ID: 322277047-48441-247@BJC.BGI.JC.FC
+        From: <sip:6104@192.168.92.200>;tag=1823339704
+            SIP from address: sip:6104@192.168.92.200
+                SIP from address User Part: 6104
+                SIP from address Host Part: 192.168.92.200
+            SIP from tag: 1823339704
+        To: <sip:192.168.92.200>;tag=z9hG4bK1795466113
+            SIP to address: sip:192.168.92.200
+                SIP to address Host Part: 192.168.92.200
+            SIP to tag: z9hG4bK1795466113
+        CSeq: 2460 OPTIONS
+            Sequence Number: 2460
+            Method: OPTIONS
+         [truncated]Accept: application/sdp, application/xpidf+xml, application/cpim-pidf+xml, application/conference-info+xml, application/dialog-info+xml, application/pidf+xml, application/simple-message-summary, application/call-completion, me
+        Allow: OPTIONS, INFO, SUBSCRIBE, NOTIFY, PUBLISH, INVITE, ACK, BYE, CANCEL, UPDATE, PRACK, REFER, MESSAGE, REGISTER
+        Supported: 100rel, norefersub, replaces
+        Accept-Encoding: text/plain
+        Accept-Language: en
+        Server: Grandstream UCM6116V1.5A 1.0.18.12
+        Content-Length:  0
+
+Frame 3764: 613 bytes on wire (4904 bits), 613 bytes captured (4904 bits) on interface 0
+    Interface id: 0 (enp2s0)
+        Interface name: enp2s0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 13, 2019 11:18:46.129801956 CST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1565666326.129801956 seconds
+    [Time delta from previous captured frame: 0.000090195 seconds]
+    [Time delta from previous displayed frame: 2.394151552 seconds]
+    [Time since reference or first frame: 16.591931095 seconds]
+    Frame Number: 3764
+    Frame Length: 613 bytes (4904 bits)
+    Capture Length: 613 bytes (4904 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:sip]
+Ethernet II, Src: Grandstr_59:38:9f (00:0b:82:59:38:9f), Dst: Grandstr_56:67:87 (00:0b:82:56:67:87)
+    Destination: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        Address: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Grandstr_59:38:9f (00:0b:82:59:38:9f)
+        Address: Grandstr_59:38:9f (00:0b:82:59:38:9f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.92.48, Dst: 192.168.92.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x68 (DSCP: AF31, ECN: Not-ECT)
+        0110 10.. = Differentiated Services Codepoint: Assured Forwarding 31 (26)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 599
+    Identification: 0x711a (28954)
+    Flags: 0x0000
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0xccca [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.92.48
+    Destination: 192.168.92.200
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+    Source Port: 5060
+    Destination Port: 5060
+    Length: 579
+    Checksum: 0xc0ac [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 23]
+Session Initiation Protocol (BYE)
+    Request-Line: BYE sip:6104@192.168.92.200:5060 SIP/2.0
+        Method: BYE
+        Request-URI: sip:6104@192.168.92.200:5060
+            Request-URI User Part: 6104
+            Request-URI Host Part: 192.168.92.200
+            Request-URI Host Port: 5060
+        [Resent Packet: False]
+    Message Header
+        Via: SIP/2.0/UDP 192.168.92.48:5060;branch=z9hG4bK1001561176;rport
+            Transport: UDP
+            Sent-by Address: 192.168.92.48
+            Sent-by port: 5060
+            Branch: z9hG4bK1001561176
+            RPort: rport
+        From: <sip:8888@192.168.92.48>;tag=153128052
+            SIP from address: sip:8888@192.168.92.48
+                SIP from address User Part: 8888
+                SIP from address Host Part: 192.168.92.48
+            SIP from tag: 153128052
+        To: "6104" <sip:6104@192.168.92.200>;tag=f159902e-57f7-401c-ac17-188c633cdb12
+            SIP Display info: "6104"
+            SIP to address: sip:6104@192.168.92.200
+                SIP to address User Part: 6104
+                SIP to address Host Part: 192.168.92.200
+            SIP to tag: f159902e-57f7-401c-ac17-188c633cdb12
+        Call-ID: d8bf4b59-e442-4cc5-9107-7494578812e8
+        CSeq: 32593 BYE
+            Sequence Number: 32593
+            Method: BYE
+        Contact: <sip:8888@192.168.92.48:5060>
+            Contact URI: sip:8888@192.168.92.48:5060
+                Contact URI User Part: 8888
+                Contact URI Host Part: 192.168.92.48
+                Contact URI Host Port: 5060
+        X-Grandstream-PBX: true
+            [Expert Info (Note/Undecoded): Unrecognised SIP header (x-grandstream-pbx)]
+                [Unrecognised SIP header (x-grandstream-pbx)]
+                [Severity level: Note]
+                [Group: Undecoded]
+        Max-Forwards: 70
+        Supported: replaces, path, timer
+        User-Agent: Grandstream GXP2140 0.4.25.45
+        Allow: INVITE, ACK, OPTIONS, CANCEL, BYE, SUBSCRIBE, NOTIFY, INFO, REFER, UPDATE, MESSAGE
+        Content-Length: 0
+
+Frame 3769: 409 bytes on wire (3272 bits), 409 bytes captured (3272 bits) on interface 0
+    Interface id: 0 (enp2s0)
+        Interface name: enp2s0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 13, 2019 11:18:46.137306486 CST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1565666326.137306486 seconds
+    [Time delta from previous captured frame: 0.000010534 seconds]
+    [Time delta from previous displayed frame: 0.007504530 seconds]
+    [Time since reference or first frame: 16.599435625 seconds]
+    Frame Number: 3769
+    Frame Length: 409 bytes (3272 bits)
+    Capture Length: 409 bytes (3272 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:sip]
+Ethernet II, Src: Grandstr_56:67:87 (00:0b:82:56:67:87), Dst: Grandstr_59:38:9f (00:0b:82:59:38:9f)
+    Destination: Grandstr_59:38:9f (00:0b:82:59:38:9f)
+        Address: Grandstr_59:38:9f (00:0b:82:59:38:9f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        Address: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.92.200, Dst: 192.168.92.48
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 395
+    Identification: 0x0000 (0)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0xff18 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.92.200
+    Destination: 192.168.92.48
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+    Source Port: 5060
+    Destination Port: 5060
+    Length: 375
+    Checksum: 0x84a5 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 23]
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+        Status-Code: 200
+        [Resent Packet: False]
+        [Request Frame: 3764]
+        [Response Time (ms): 7]
+        [Release Time (ms): 7]
+    Message Header
+        Via: SIP/2.0/UDP 192.168.92.48:5060;rport=5060;received=192.168.92.48;branch=z9hG4bK1001561176
+            Transport: UDP
+            Sent-by Address: 192.168.92.48
+            Sent-by port: 5060
+            RPort: 5060
+            Received: 192.168.92.48
+            Branch: z9hG4bK1001561176
+        Call-ID: d8bf4b59-e442-4cc5-9107-7494578812e8
+        From: <sip:8888@192.168.92.48>;tag=153128052
+            SIP from address: sip:8888@192.168.92.48
+                SIP from address User Part: 8888
+                SIP from address Host Part: 192.168.92.48
+            SIP from tag: 153128052
+        To: "6104" <sip:6104@192.168.92.200>;tag=f159902e-57f7-401c-ac17-188c633cdb12
+            SIP Display info: "6104"
+            SIP to address: sip:6104@192.168.92.200
+                SIP to address User Part: 6104
+                SIP to address Host Part: 192.168.92.200
+            SIP to tag: f159902e-57f7-401c-ac17-188c633cdb12
+        CSeq: 32593 BYE
+            Sequence Number: 32593
+            Method: BYE
+        Server: Grandstream UCM6116V1.5A 1.0.18.12
+        Content-Length:  0
+
+Frame 3827: 473 bytes on wire (3784 bits), 473 bytes captured (3784 bits) on interface 0
+    Interface id: 0 (enp2s0)
+        Interface name: enp2s0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 13, 2019 11:18:46.309407685 CST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1565666326.309407685 seconds
+    [Time delta from previous captured frame: 0.006740935 seconds]
+    [Time delta from previous displayed frame: 0.172101199 seconds]
+    [Time since reference or first frame: 16.771536824 seconds]
+    Frame Number: 3827
+    Frame Length: 473 bytes (3784 bits)
+    Capture Length: 473 bytes (3784 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:sip]
+Ethernet II, Src: Grandstr_56:67:87 (00:0b:82:56:67:87), Dst: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+    Destination: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+        Address: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        Address: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.92.200, Dst: 192.168.92.52
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 459
+    Identification: 0x0000 (0)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0xfed4 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.92.200
+    Destination: 192.168.92.52
+User Datagram Protocol, Src Port: 5060, Dst Port: 48441
+    Source Port: 5060
+    Destination Port: 48441
+    Length: 439
+    Checksum: 0xa9e9 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 17]
+Session Initiation Protocol (BYE)
+    Request-Line: BYE sip:6104@192.168.92.52:48441 SIP/2.0
+        Method: BYE
+        Request-URI: sip:6104@192.168.92.52:48441
+            Request-URI User Part: 6104
+            Request-URI Host Part: 192.168.92.52
+            Request-URI Host Port: 48441
+        [Resent Packet: False]
+    Message Header
+        Via: SIP/2.0/UDP 192.168.92.200:5060;rport;branch=z9hG4bKPj06b3adb1-2013-45fe-9a1c-1d0f3dfeb88a
+            Transport: UDP
+            Sent-by Address: 192.168.92.200
+            Sent-by port: 5060
+            RPort: rport
+            Branch: z9hG4bKPj06b3adb1-2013-45fe-9a1c-1d0f3dfeb88a
+        From: <sip:8888@192.168.92.200>;tag=ae9674ba-fee4-4b24-a986-62904b4964a8
+            SIP from address: sip:8888@192.168.92.200
+                SIP from address User Part: 8888
+                SIP from address Host Part: 192.168.92.200
+            SIP from tag: ae9674ba-fee4-4b24-a986-62904b4964a8
+        To: <sip:6104@192.168.92.200>;tag=2026881436
+            SIP to address: sip:6104@192.168.92.200
+                SIP to address User Part: 6104
+                SIP to address Host Part: 192.168.92.200
+            SIP to tag: 2026881436
+        Call-ID: 224115816-48441-246@BJC.BGI.JC.FC
+        CSeq: 1416 BYE
+            Sequence Number: 1416
+            Method: BYE
+        Reason: Q.850;cause=16
+            Reason protocols: Q.850
+            Cause: Normal call clearing (16)
+        Max-Forwards: 70
+        User-Agent: Grandstream UCM6116V1.5A 1.0.18.12
+        Content-Length:  0
+
+Frame 3854: 561 bytes on wire (4488 bits), 561 bytes captured (4488 bits) on interface 0
+    Interface id: 0 (enp2s0)
+        Interface name: enp2s0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 13, 2019 11:18:46.342715452 CST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1565666326.342715452 seconds
+    [Time delta from previous captured frame: 0.001780387 seconds]
+    [Time delta from previous displayed frame: 0.033307767 seconds]
+    [Time since reference or first frame: 16.804844591 seconds]
+    Frame Number: 3854
+    Frame Length: 561 bytes (4488 bits)
+    Capture Length: 561 bytes (4488 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:sip]
+Ethernet II, Src: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e), Dst: Grandstr_56:67:87 (00:0b:82:56:67:87)
+    Destination: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        Address: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+        Address: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.92.52, Dst: 192.168.92.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x68 (DSCP: AF31, ECN: Not-ECT)
+        0110 10.. = Differentiated Services Codepoint: Assured Forwarding 31 (26)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 547
+    Identification: 0x51f2 (20978)
+    Flags: 0x0000
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0xec22 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.92.52
+    Destination: 192.168.92.200
+User Datagram Protocol, Src Port: 48441, Dst Port: 5060
+    Source Port: 48441
+    Destination Port: 5060
+    Length: 527
+    Checksum: 0x7d30 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 17]
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+        Status-Code: 200
+        [Resent Packet: False]
+        [Request Frame: 3827]
+        [Response Time (ms): 33]
+        [Release Time (ms): 33]
+    Message Header
+        Via: SIP/2.0/UDP 192.168.92.200:5060;rport=5060;branch=z9hG4bKPj06b3adb1-2013-45fe-9a1c-1d0f3dfeb88a
+            Transport: UDP
+            Sent-by Address: 192.168.92.200
+            Sent-by port: 5060
+            RPort: 5060
+            Branch: z9hG4bKPj06b3adb1-2013-45fe-9a1c-1d0f3dfeb88a
+        From: <sip:8888@192.168.92.200>;tag=ae9674ba-fee4-4b24-a986-62904b4964a8
+            SIP from address: sip:8888@192.168.92.200
+                SIP from address User Part: 8888
+                SIP from address Host Part: 192.168.92.200
+            SIP from tag: ae9674ba-fee4-4b24-a986-62904b4964a8
+        To: <sip:6104@192.168.92.200>;tag=2026881436
+            SIP to address: sip:6104@192.168.92.200
+                SIP to address User Part: 6104
+                SIP to address Host Part: 192.168.92.200
+            SIP to tag: 2026881436
+        Call-ID: 224115816-48441-246@BJC.BGI.JC.FC
+        CSeq: 1416 BYE
+            Sequence Number: 1416
+            Method: BYE
+        Contact: <sip:6104@192.168.92.52:48441>
+            Contact URI: sip:6104@192.168.92.52:48441
+                Contact URI User Part: 6104
+                Contact URI Host Part: 192.168.92.52
+                Contact URI Host Port: 48441
+        Supported: replaces, path
+        User-Agent: Grandstream GRP2614 1.0.1.3
+        Allow: INVITE, ACK, OPTIONS, CANCEL, BYE, SUBSCRIBE, NOTIFY, INFO, REFER, UPDATE, MESSAGE
+        Content-Length: 0
+
+Frame 4111: 549 bytes on wire (4392 bits), 549 bytes captured (4392 bits) on interface 0
+    Interface id: 0 (enp2s0)
+        Interface name: enp2s0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 13, 2019 11:18:46.759306855 CST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1565666326.759306855 seconds
+    [Time delta from previous captured frame: 0.001308590 seconds]
+    [Time delta from previous displayed frame: 0.416591403 seconds]
+    [Time since reference or first frame: 17.221435994 seconds]
+    Frame Number: 4111
+    Frame Length: 549 bytes (4392 bits)
+    Capture Length: 549 bytes (4392 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:sip]
+Ethernet II, Src: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e), Dst: Grandstr_56:67:87 (00:0b:82:56:67:87)
+    Destination: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        Address: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+        Address: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.92.52, Dst: 192.168.92.200
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x68 (DSCP: AF31, ECN: Not-ECT)
+        0110 10.. = Differentiated Services Codepoint: Assured Forwarding 31 (26)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 535
+    Identification: 0x5217 (21015)
+    Flags: 0x0000
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0xec09 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.92.52
+    Destination: 192.168.92.200
+User Datagram Protocol, Src Port: 26664, Dst Port: 5060
+    Source Port: 26664
+    Destination Port: 5060
+    Length: 515
+    Checksum: 0xddb3 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 110]
+Session Initiation Protocol (OPTIONS)
+    Request-Line: OPTIONS sip:192.168.92.200 SIP/2.0
+        Method: OPTIONS
+        Request-URI: sip:192.168.92.200
+            Request-URI Host Part: 192.168.92.200
+        [Resent Packet: False]
+    Message Header
+        Via: SIP/2.0/UDP 192.168.92.52:26664;branch=z9hG4bK1211735979;rport
+            Transport: UDP
+            Sent-by Address: 192.168.92.52
+            Sent-by port: 26664
+            Branch: z9hG4bK1211735979
+            RPort: rport
+        From: <sip:6517@192.168.92.200>;tag=616123256
+            SIP from address: sip:6517@192.168.92.200
+                SIP from address User Part: 6517
+                SIP from address Host Part: 192.168.92.200
+            SIP from tag: 616123256
+        To: <sip:192.168.92.200>
+            SIP to address: sip:192.168.92.200
+                SIP to address Host Part: 192.168.92.200
+        Call-ID: 1700280506-26664-237@BJC.BGI.JC.FC
+        CSeq: 2360 OPTIONS
+            Sequence Number: 2360
+            Method: OPTIONS
+        Contact: <sip:6517@192.168.92.52:26664>
+            Contact URI: sip:6517@192.168.92.52:26664
+                Contact URI User Part: 6517
+                Contact URI Host Part: 192.168.92.52
+                Contact URI Host Port: 26664
+        X-Grandstream-PBX: true
+            [Expert Info (Note/Undecoded): Unrecognised SIP header (x-grandstream-pbx)]
+                [Unrecognised SIP header (x-grandstream-pbx)]
+                [Severity level: Note]
+                [Group: Undecoded]
+        Max-Forwards: 70
+        User-Agent: Grandstream GRP2614 1.0.1.3
+        Supported: replaces, path
+        Allow: INVITE, ACK, OPTIONS, CANCEL, BYE, SUBSCRIBE, NOTIFY, INFO, REFER, UPDATE, MESSAGE
+        Content-Length: 0
+
+Frame 4121: 843 bytes on wire (6744 bits), 843 bytes captured (6744 bits) on interface 0
+    Interface id: 0 (enp2s0)
+        Interface name: enp2s0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 13, 2019 11:18:46.775971242 CST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1565666326.775971242 seconds
+    [Time delta from previous captured frame: 0.007522914 seconds]
+    [Time delta from previous displayed frame: 0.016664387 seconds]
+    [Time since reference or first frame: 17.238100381 seconds]
+    Frame Number: 4121
+    Frame Length: 843 bytes (6744 bits)
+    Capture Length: 843 bytes (6744 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:sip]
+Ethernet II, Src: Grandstr_56:67:87 (00:0b:82:56:67:87), Dst: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+    Destination: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+        Address: Grandstr_f9:ae:8e (00:0b:82:f9:ae:8e)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        Address: Grandstr_56:67:87 (00:0b:82:56:67:87)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.92.200, Dst: 192.168.92.52
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 829
+    Identification: 0x0000 (0)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0xfd62 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.92.200
+    Destination: 192.168.92.52
+User Datagram Protocol, Src Port: 5060, Dst Port: 26664
+    Source Port: 5060
+    Destination Port: 26664
+    Length: 809
+    Checksum: 0x84aa [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 110]
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+        Status-Code: 200
+        [Resent Packet: False]
+        [Request Frame: 4111]
+        [Response Time (ms): 16]
+    Message Header
+        Via: SIP/2.0/UDP 192.168.92.52:26664;rport=26664;received=192.168.92.52;branch=z9hG4bK1211735979
+            Transport: UDP
+            Sent-by Address: 192.168.92.52
+            Sent-by port: 26664
+            RPort: 26664
+            Received: 192.168.92.52
+            Branch: z9hG4bK1211735979
+        Call-ID: 1700280506-26664-237@BJC.BGI.JC.FC
+        From: <sip:6517@192.168.92.200>;tag=616123256
+            SIP from address: sip:6517@192.168.92.200
+                SIP from address User Part: 6517
+                SIP from address Host Part: 192.168.92.200
+            SIP from tag: 616123256
+        To: <sip:192.168.92.200>;tag=z9hG4bK1211735979
+            SIP to address: sip:192.168.92.200
+                SIP to address Host Part: 192.168.92.200
+            SIP to tag: z9hG4bK1211735979
+        CSeq: 2360 OPTIONS
+            Sequence Number: 2360
+            Method: OPTIONS
+         [truncated]Accept: application/sdp, application/xpidf+xml, application/cpim-pidf+xml, application/conference-info+xml, application/dialog-info+xml, application/pidf+xml, application/simple-message-summary, application/call-completion, me
+        Allow: OPTIONS, INFO, SUBSCRIBE, NOTIFY, PUBLISH, INVITE, ACK, BYE, CANCEL, UPDATE, PRACK, REFER, MESSAGE, REGISTER
+        Supported: 100rel, norefersub, replaces
+        Accept-Encoding: text/plain
+        Accept-Language: en
+        Server: Grandstream UCM6116V1.5A 1.0.18.12
+        Content-Length:  0
+

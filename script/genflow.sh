@@ -4,7 +4,7 @@
 #
 #          FILE: extract.sh
 # 
-#         USAGE: ./extract.sh pcap
+#         USAGE: ./extract.sh pcap dest
 # 
 #   DESCRIPTION: callflow project reuse
 # 
@@ -14,7 +14,7 @@
 #         NOTES: ---
 #        AUTHOR: ELI, 
 #  ORGANIZATION: 
-#       CREATED: 20190516 14:57
+#       CREATED: 20190813 15:17
 #      REVISION:  ---
 #===============================================================================
 
@@ -22,8 +22,12 @@ set -o nounset                              # Treat unset variables as an error
 
 TMPDIR="/tmp"
 PRGNAME="test"
+FVAL="sip or diameter or isup or megaco or (ip.frag_offset > 1300)"
+PCAP_FILE=$1
+DESTDIR=$2
 
-tshark -r ./capture.pcap -Y "sip" -t a -T fields -E separator='|' \
+tshark -r "${PCAP_FILE}" -Y "$FVAL" -V > $DESTDIR/callflow_long
+tshark -r "${PCAP_FILE}" -Y "$FVAL" -t a -T fields -E separator='|' \
     -e frame.number -e ip.src -e ip.dst -e sip.CSeq -e sip.Call-ID \
     -e sdp.connection_info -e sdp.media -e sdp.media_attr | awk '
   BEGIN {
@@ -73,7 +77,7 @@ tshark -r ./capture.pcap -Y "sip" -t a -T fields -E separator='|' \
     printf "%s||%s|%s|%s|{%s}|%s|%s|%s|%s\n", $1, $2, $3, $4, CALLID[$5], $6, PORT, FORMAT, DIRECTION
   }' > $TMPDIR/${PRGNAME}-tshark-1.$$
 
-tshark -r ./capture.pcap -Y "sip" -t a \
+tshark -r "${PCAP_FILE}" -Y "sip" -t a \
     -o 'gui.column.format: "No.", "%m", "Time", %t, "Protocol", "%p", "srcport", %S, "dstport", %D, "Info", "%i"' |
       sed -e 's/^[[:blank:]]*//' \
         -e 's/[[:blank:]]*|=/=/' \
@@ -158,6 +162,7 @@ join -t "|" --nocheck-order $TMPDIR/${PRGNAME}-tshark-1.$$ $TMPDIR/${PRGNAME}-ts
     printf "%s\n", $A[L]
   }' $TMPDIR/${PRGNAME}-tshark-3.$$ > $TMPDIR/callflow_short.$$
 
+cp $TMPDIR/callflow_short.$$ $DESTDIR/callflow_short
 rm $TMPDIR/${PRGNAME}-tshark-[123].$$
 
 # Call this script with as input file, a file formatted as the callflow.short file.
@@ -226,10 +231,11 @@ rm $TMPDIR/${PRGNAME}-tshark-[123].$$
       }
       print DEVICES[i], ALIAS
     }
-  }' $TMPDIR/callflow.short.$$ > $TMPDIR/callflow_node.$$
+  }' $TMPDIR/callflow_short.$$ > $TMPDIR/callflow_node.$$
 
-cut -d " " -f 2 $TMPDIR/callflow_node.$$ > $TMPDIR/callflow_shortnode.$$
+cp $TMPDIR/callflow_node.$$ $DESTDIR/callflow_node
+cut -d " " -f 2 $TMPDIR/callflow_node.$$ > $DESTDIR/callflow_shortnode
 
 # ** (process:1484): WARNING **: Preference "column.format" has been converted to "gui.column.format"
 # get rtp for pcap2wav script
-tshark -r ./capture.pcap -Y "rtp" -t a -o 'gui.column.format: "No.", "%m", "Time", %t, "Source", "%s", "Destination", "%d", "Protocol", "%p", "srcport", %S, "dstport", %D, "Info", "%i"' | uniq -f 14 | grep ", Mark" > $TMPDIR/callflow_rtp.$$
+tshark -r "${PCAP_FILE}" -Y "rtp" -t a -o 'gui.column.format: "No.", "%m", "Time", %t, "Source", "%s", "Destination", "%d", "Protocol", "%p", "srcport", %S, "dstport", %D, "Info", "%i"' | uniq -f 14 | grep ", Mark" > $DESTDIR/callflow_rtp
