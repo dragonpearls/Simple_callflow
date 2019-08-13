@@ -1,0 +1,6 @@
+The callflow sequence diagram generator is a collection of awk and shell scripts that will take a packet capture file that can be read by wireshark and produce a time sequence diagram. This is useful to view & debug SIP callflows or other network traffic
+
+See INSTALL to know how to setup this software on your computer
+See AUTHORS to know who participate in writting this software
+See LICENSE to have an overview of the license applied on this software
+

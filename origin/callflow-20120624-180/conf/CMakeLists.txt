@@ -1,0 +1,4 @@
+install(FILES
+  callflow.conf
+  DESTINATION "${SYSCONF_INSTALL_DIR}/${PROJECT_NAME}"
+)
