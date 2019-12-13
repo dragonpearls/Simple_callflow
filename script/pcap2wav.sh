@@ -58,19 +58,17 @@ EOF
 exit
 fi
 
-if [[ ! -z "$2" ]]
-then
-    CAPFILE=$2
-fi
-
 if [[ $1 == "-z" ]]
 then
     CLEAN=true
-    [[ -z "$CAPFILE" ]] && CAPFILE="capture.pcap"
+    CAPFILE="capture.pcap"
     TARGETFILE="result"
+    if [ x$2 != x ];then
+        CAPFILE=$2
+    fi
 else
     CLEAN=false
-    [[ -z "$CAPFILE" ]] && CAPFILE="capture.pcap"
+    CAPFILE=$1
     TARGETFILE="result"
 fi
 
@@ -225,6 +223,7 @@ then
         mv  ${TARGETFILE}_*_$item.* audio
     done
     rm -fr $TARGETFILE.tmp
+    rm result_*.${codec}
 else
     echo "No clean option specified - leaving .<codec> and .wav files on system." >> $error_log 
 fi
