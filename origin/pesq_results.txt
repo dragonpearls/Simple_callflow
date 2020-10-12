@@ -1,0 +1,2 @@
+REFERENCE	 DEGRADED	 PESQMOS	 MOSLQO	 SAMPLE_FREQ	 MODE
+p.563/bin/result_1.wav	 p.563/bin/result_2.wav	 0.872	 1.134	 8000	nb

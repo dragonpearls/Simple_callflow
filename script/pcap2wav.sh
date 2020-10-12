@@ -14,7 +14,7 @@
 #        AUTHOR: 
 #  ORGANIZATION: 
 #       CREATED: 20190712 16:43
-#      REVISION:  ---
+#      REVISION:  20201012 14:30
 #===============================================================================
 
 set -o nounset                              # Treat unset variables as an error
@@ -108,7 +108,7 @@ else
 fi
 
 # Locate RTP streams, put into temp file
-tshark -n -r $CAPFILE -Y rtp -T fields -e rtp.ssrc -e udp.dstport -Eseparator=, | sort -u > /tmp/pcap2wav.tmp
+tshark -n -r $CAPFILE -Y rtp -T fields -e rtp.ssrc -e udp.dstport -Eseparator=, | grep -v ^, | sort -u > /tmp/pcap2wav.tmp
 
 # Count the RTP streams
 num_streams=`grep -c "" /tmp/pcap2wav.tmp`
@@ -125,6 +125,7 @@ for item in `seq 1 $num_streams`; do
 done
 
 payload_type=`tshark -n -r $CAPFILE -T fields -e rtp.p_type | grep -P '\d+' | head -n 1`
+echo $payload_type
 case $payload_type in
     0) codec='PCMU'
         for item in `seq 1 $num_streams`; do
@@ -206,24 +207,4 @@ then
     $command
     rm -fr ${TARGETFILE}_tmp.wav
 
-fi
-
-if [[ $CLEAN == "true" ]]
-then
-    #echo "Clean option"
-    ZIPFILE=${TARGETFILE}.tgz
-
-    if [ ! -d './audio/' ];then
-        mkdir audio
-    fi
-
-    rm -fr $ZIPFILE
-    /bin/tar czf $ZIPFILE ${TARGETFILE}*wav > /dev/null 2>& 1
-    for item in `seq 1 $num_streams`; do
-        mv  ${TARGETFILE}_*_$item.* audio
-    done
-    rm -fr $TARGETFILE.tmp
-    rm result_*.${codec}
-else
-    echo "No clean option specified - leaving .<codec> and .wav files on system." >> $error_log 
 fi
